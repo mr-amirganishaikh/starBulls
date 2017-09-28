@@ -1,3 +1,10 @@
 /* All common stylesheet codes should come here */
 
 @import "global";
+
+$font-primary: 'Open Sans', sans-serif;
+$font-Secondary: 'Roboto', sans-serif;
+
+body{
+    font-family: $font-primary;
+}
