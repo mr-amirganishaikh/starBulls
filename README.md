@@ -8,7 +8,7 @@ Folders Details:
 5. php
 6. scss
 
-
+# Folder details
 1. _partial
 - This folder consists of files which will be included in multiple pages.
 - How to include this files in other pages 
