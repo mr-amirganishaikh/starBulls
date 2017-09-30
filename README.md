@@ -16,3 +16,5 @@ Ex. As we have few code lines for <HEAD> tag which should be used in each page w
 <?php include '_partial/head.php' ?>
 - While editing any file in _partial folder will have to keep in mind that if any link for any internal page or file is to be made will add path as if we are adding directly to the page. 
 Ex. This format should be used <img src="img/imageName.extension" /> instead of <img src="../img/imageName.extension" />
+
+Test It
