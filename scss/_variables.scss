@@ -39,6 +39,16 @@ $familyName: 'familyName', BackDropFont;
 }
 */
 
+$font-primary: 'Open Sans', sans-serif;
+.font-primary {
+    font-family: $font-primary !important;
+}
+
+$font-Secondary: 'Roboto', sans-serif;
+.font-Secondary {
+    font-family: $font-Secondary !important;
+}
+
 
 /******if using offline fonts******/
 /*
