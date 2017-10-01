@@ -72,6 +72,23 @@ body {
     position: relative;
     max-height: 100vh;
     overflow: hidden;
+    .carousel-inner {
+        .item {
+            .sub-item {
+                position: absolute;
+                width: 70%;
+                left: 15%;
+                top: 25%;
+                h1 {
+                    font-size: 4rem;
+                    font-weight: 900;
+                    color: #ddd;
+                    text-shadow: 4px 4px 10px #000;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+    }
     .carousel-indicators {
         li {
             width: 20px;

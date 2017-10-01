@@ -368,6 +368,17 @@ body {
   position: relative;
   max-height: 100vh;
   overflow: hidden; }
+  .carousel .carousel-inner .item .sub-item {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 25%; }
+    .carousel .carousel-inner .item .sub-item h1 {
+      font-size: 4rem;
+      font-weight: 900;
+      color: #ddd;
+      text-shadow: 4px 4px 10px #000;
+      letter-spacing: 3px; }
   .carousel .carousel-indicators li {
     width: 20px;
     height: 20px;
