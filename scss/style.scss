@@ -2,7 +2,15 @@
 
 @import "global";
 body {
+    font-family: $font-secondary;
+}
+
+.section-title {
     font-family: $font-primary;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1em 0;
+    letter-spacing: 2px;
 }
 
 //navbar css
@@ -14,8 +22,7 @@ body {
             color: #ddd;
             &:hover {
                 background-color: transparent;
-                box-shadow: 0 0 1px 1px #999;
-//                border-radius: 2px;
+                box-shadow: 0 0 1px 1px #999; //                border-radius: 2px;
             }
         }
     }
@@ -38,6 +45,115 @@ body {
             height: 20px;
             border: 4px solid black;
             background-color: #fff;
+        }
+    }
+}
+
+// Homepage Events
+#homepage-events {
+    @extend .relative-box;
+    background-color: darken($color-white, 5%);
+    padding: 30px 0 50px;
+    .title {
+        h2 {
+            @extend .section-title;
+            color: $color-black;
+        }
+    }
+    .events-section {
+        @extend .relative-box;
+        >div:nth-child(odd){
+            padding-left: 0;
+            padding-right: 10px;
+        }
+        >div:nth-child(even){
+            padding-left: 10px;
+            padding-right: 0;
+        }
+        .events-box {
+            @extend .relative-box;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 40px 60px;
+            margin-bottom: 1rem;
+            border: 4px solid transparent;
+            &:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+            }
+            &.dark {
+                border-color: $color-special-blue;
+                &:before {
+                    background-color: rgba($color-special-blue, 0.6);
+                }
+                .box-details {
+                    color: $color-white;
+                    .box-description {
+                        color: darken($color-white, 15%);
+                    }
+                    .btn-link {
+                        border-color: $color-main;
+                        color: $color-main;
+                        @include border-radius(2px);
+                    }
+                }
+            }
+            &.light {
+                border-color: darken($color-white, 20%);
+                @include border-radius(2px);
+                &:before {
+                    background-color: rgba($color-white, 0.8);
+                }
+                .box-details {
+                    color: $color-black;
+                    .btn-link {
+                        border-color: $color-black;
+                        color: $color-black;
+                    }
+                }
+            }
+            .box-details {
+                @extend .relative-box;
+                .box-heading {
+                    font-family: $font-primary;
+                    font-size: 1.5rem;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    margin: 1em 0;
+                }
+                .box-description {
+                    font-size: 1rem;
+                    margin: 1em 0;
+                }
+                .btn-link {
+                    font-size: 0.9rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    border: 2px solid;
+                    display: inline-block;
+                    padding: 9px 18px;
+                    margin: 1em 0;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+// Homepage Service
+#homepage-services{
+    @extend .relative-box;
+    background-color: lighten($color-black, 5%);
+    padding: 30px 0 50px;
+    .title {
+        h2 {
+            @extend .section-title;
+            color: $color-white;
         }
     }
 }

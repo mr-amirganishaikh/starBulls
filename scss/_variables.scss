@@ -2,8 +2,8 @@
 
 // Colors
 $color-base: #2a2e31; // Define base or support color for website
-$color-main: #4CD9C9; // Define main color for website
-$color-special-red: #E23939;
+$color-main: #e51e3b; // Define main color for website
+$color-special-blue: #303956;
 $color-black: #000000;
 $color-white: #ffffff;
 $color-pink: #e91e63;
@@ -44,9 +44,9 @@ $font-primary: 'Open Sans', sans-serif;
     font-family: $font-primary !important;
 }
 
-$font-Secondary: 'Roboto', sans-serif;
-.font-Secondary {
-    font-family: $font-Secondary !important;
+$font-secondary: 'Roboto', sans-serif;
+.font-secondary {
+    font-family: $font-secondary !important;
 }
 
 

@@ -35,8 +35,61 @@
     </div>
     <div class="clearfix"></div>
 
-    <main style="min-height: 500px;">
-
+    <main>
+        <section id="homepage-events">
+            <div class="container">
+                <div class="title">
+                    <h2>Events</h2>
+                </div>
+                <div class="events-section">
+                    <div class="col-md-7">
+                        <div class="events-box dark" style="background-image: url(img/1.jpg);">
+                            <div class="box-details">
+                                <h2 class="box-heading">Security Consulting</h2>
+                                <p class="box-description">We happy to share our experience and cases with every company who care about security</p>
+                                <a href="javascript:void();" class="btn btn-link">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="events-box light" style="background-image: url(img/temp.jpg);">
+                            <div class="box-details">
+                                <h2 class="box-heading">Close Protection</h2>
+                                <p class="box-description">More than 25 specially trained bodyguards are ready to provide for your safety 24 hours a day</p>
+                                <a href="javascript:void();" class="btn btn-link">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="events-box light" style="background-image: url(img/temp.jpg);">
+                            <div class="box-details">
+                                <h2 class="box-heading">Investigations</h2>
+                                <p class="box-description">Our detective are always ready to find the hidden truth</p>
+                                <a href="javascript:void();" class="btn btn-link">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="events-box dark" style="background-image: url(img/1.jpg);">
+                            <div class="box-details">
+                                <h2 class="box-heading">Security Systems</h2>
+                                <p class="box-description">Development of security and fire protection systems for homes and offices any level of complexity</p>
+                                <a href="javascript:void();" class="btn btn-link">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="clearfix"></div>
+        
+        <section id="homepage-services">
+            <div class="container">
+                <div class="title">
+                    <h2>Security Services</h2>
+                </div>
+            </div>
+        </section>
     </main>
     <div class="clearfix"></div>
 
