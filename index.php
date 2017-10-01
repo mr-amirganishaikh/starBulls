@@ -26,8 +26,8 @@
         <div class="carousel-inner">
             <div class="item active">
                 <div class="sub-item text-center">
-                    <img src="img/starbullslogo.png" width="150px">
-                    <h1>Premium security services<br>Trusted by millions</h1>
+                    <img class="wow flipInY" src="img/starbullslogo.png" width="150px">
+                    <h1 class="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1s">Premium security services<br>Trusted by millions</h1>
                 </div>
                 <img src="img/1.jpg" alt="" title="Starbull Security">
             </div>
