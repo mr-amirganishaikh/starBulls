@@ -334,10 +334,12 @@ body {
   margin: 1em 0;
   letter-spacing: 2px; }
 
-.navbar .contact-header span {
-  display: inline-block;
-  margin-left: 25px;
-  color: white; }
+.navbar {
+  transition: all 0.5s; }
+  .navbar .contact-header span {
+    display: inline-block;
+    margin-left: 25px;
+    color: white; }
 
 .nav li a {
   padding: 8px 15px;
