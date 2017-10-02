@@ -96,12 +96,57 @@
         </section>
         <div class="clearfix"></div>
 
+        <section id="homepage-quotes" class="font-primary p-tb-none">
+            <div class="container">
+                <div class="row flex-row">
+                    <div class="col-sx-12 col-sm-3">
+                        <img src="img/2.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-sx-12 col-sm-9">
+                        <div class="quote-flex text-center">
+                            <h1>" You can judge the success of man by his bodyguards "</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="clearfix"></div>
+
         <section id="homepage-statistics" class="text-center font-primary" style="padding:75px 0">
             <div class="full-black-overlay"></div>
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"></div>
-                    <div class="clearfix"></div>
+                <div class="row m-t-md m-b-xxl">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="counter-box">
+                            <h4 class="text-uppercase m-none p-tb-xxl">event served</h4>
+                            <strong class="counter-count p-lr-sm">1k+</strong>
+                            <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="counter-box">
+                            <h4 class="text-uppercase m-none p-tb-xxl">Qualified Staff</h4>
+                            <strong class="counter-count p-lr-sm">450</strong>
+                            <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="counter-box">
+                            <h4 class="text-uppercase m-none p-tb-xxl">our locations</h4>
+                            <strong class="counter-count p-lr-sm">1200</strong>
+                            <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="counter-box">
+                            <h4 class="text-uppercase m-none p-tb-xxl">area serving</h4>
+                            <strong class="counter-count p-lr-sm">550</strong>
+                            <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="row m-t-md">
                     <div class="col-xs-12 stats-text">
                         <h3>With over 5 decades of experience, We deliver</h3>
                         <h2 class="text-uppercase m-b-xl"><strong>premium security solution at best price</strong></h2>

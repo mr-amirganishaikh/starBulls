@@ -258,12 +258,12 @@ section {
   -moz-animation-delay: 5.5s;
   animation-delay: 5.5s; }
 
-.relative-box, footer .footer .table tbody tr td form, #homepage-events, #homepage-events .events-section, #homepage-events .events-section .events-box, #homepage-events .events-section .events-box .box-details, #homepage-statistics, #homepage-services {
+.relative-box, footer .footer .table tbody tr td form, #homepage-events, #homepage-events .events-section, #homepage-events .events-section .events-box, #homepage-events .events-section .events-box .box-details, #homepage-statistics, #homepage-statistics .counter-box, #homepage-services {
   position: relative;
   min-height: 1px;
   width: 100%;
   float: left; }
-  .relative-box:after, footer .footer .table tbody tr td form:after, #homepage-events:after, #homepage-events .events-section:after, #homepage-events .events-section .events-box:after, #homepage-events .events-section .events-box .box-details:after, #homepage-statistics:after, #homepage-services:after {
+  .relative-box:after, footer .footer .table tbody tr td form:after, #homepage-events:after, #homepage-events .events-section:after, #homepage-events .events-section .events-box:after, #homepage-events .events-section .events-box .box-details:after, #homepage-statistics:after, #homepage-statistics .counter-box:after, #homepage-services:after {
     content: '';
     clear: both; }
 
@@ -516,11 +516,37 @@ footer {
       margin: 1em 0;
       text-decoration: none; }
 
+#homepage-quotes .flex-row {
+  display: flex;
+  flex-direction: row; }
+  #homepage-quotes .flex-row .quote-flex {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center; }
+    #homepage-quotes .flex-row .quote-flex h1 {
+      font-size: 2.5rem;
+      font-weight: 900; }
+
 #homepage-statistics {
   background-image: url(../img/skyline.jpg);
   background-attachment: fixed;
   background-size: cover;
   color: #ddd; }
+  #homepage-statistics .counter-box {
+    border: 3px solid #666; }
+    #homepage-statistics .counter-box .counter-count {
+      position: absolute;
+      bottom: -18px;
+      width: 100px;
+      left: calc(50% - 50px);
+      font-size: 36px;
+      color: #e51e3b;
+      background: transparent;
+      line-height: 1; }
+    #homepage-statistics .counter-box i {
+      position: absolute;
+      bottom: -36px; }
   #homepage-statistics .stats-text h2 {
     color: white; }
 
