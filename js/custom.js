@@ -1,6 +1,13 @@
 /*Call functions on document ready*/
 $(document).ready(function () {
-
+    //testimonial
+    $(".testimonial-bullets span").click(function(){
+        var gettestno = $(this).attr("testi");
+        $(".testimonial-bullets span").removeClass("test-bullet-active");
+        $(this).addClass("test-bullet-active");
+        $(".testimonials").hide();
+        $(gettestno).fadeIn(1000);
+    });
 });
 
 /*Call functions on window load*/
