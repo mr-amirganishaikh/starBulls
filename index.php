@@ -92,6 +92,60 @@
                 <div class="title">
                     <h2>Security Services</h2>
                 </div>
+                <div class="services-section">
+                    <div class="col-md-6 services-description">
+                        <p>
+                            To prevent tampering and unauthorized entry into the premises by our engineers developed a burglar alarm system in the house. 
+                        </p>
+                        <p>
+                            Installation of the alarm will be an effective means of protection of the property when you leave the house unattended. 
+                        </p>
+                        <p>
+                            Innovative technologies for the protection of housing makes the cost of the security system for a country house fully justified.
+                        </p>
+                        <a href="javascript:void()" class="btn btn-link">More Details</a>
+                    </div>
+                    <div class="col-xs-12 col-md-6 services-grid">
+                        <ul class="list-unstyled list-grid">
+                            <li>
+                                <a href="javascript:void()" class="service-link">
+                                    <span class="service-name">CCTV SYSTEMS</span>
+                                    <i class="fa fa-camera service-icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()" class="service-link">
+                                    <span class="service-name">Intruder Alarms</span>
+                                    <i class="material-icons service-icon">notifications_active</i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()" class="service-link">
+                                    <span class="service-name">Fire Alarm</span>
+                                    <i class="fa fa-free-code-camp service-icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()" class="service-link">
+                                    <span class="service-name">Access Control</span>
+                                    <i class="material-icons service-icon">fingerprint</i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()" class="service-link">
+                                    <span class="service-name">Physical Protection</span>
+                                    <i class="material-icons service-icon">security</i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()" class="service-link">
+                                    <span class="service-name">Rapid Response</span>
+                                    <i class="fa fa-taxi service-icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
         <div class="clearfix"></div>
@@ -146,7 +200,7 @@
                     </div>
                 </div>
                 <div class="clearfix"></div>
-                <div class="row m-t-md">
+                <div class="row m-t-xxl">
                     <div class="col-xs-12 stats-text">
                         <h3>With over 5 decades of experience, We deliver</h3>
                         <h2 class="text-uppercase m-b-xl"><strong>premium security solution at best price</strong></h2>
