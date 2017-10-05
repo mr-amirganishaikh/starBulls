@@ -19,7 +19,7 @@
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
+<!--            <li data-target="#myCarousel" data-slide-to="1"></li>-->
         </ol>
 
         <!-- Wrapper for slides -->
@@ -31,9 +31,11 @@
                 </div>
                 <img src="img/1.jpg" alt="" title="Starbull Security">
             </div>
+<!--
             <div class="item">
                 <img src="img/4.jpg" alt="" title="Starbull Security">
             </div>
+-->
         </div>
 
     </div>
@@ -46,7 +48,7 @@
                     <h2>Events</h2>
                 </div>
                 <div class="events-section">
-                    <div class="col-md-7">
+                    <div class="col-md-7 wow fadeIn" data-wow-delay="0.3s">
                         <div class="events-box dark" style="background-image: url(img/1.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Security Consulting</h2>
@@ -55,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 wow fadeIn" data-wow-delay="0.6s">
                         <div class="events-box light" style="background-image: url(img/temp.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Close Protection</h2>
@@ -64,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 wow fadeIn" data-wow-delay="0.9s">
                         <div class="events-box light" style="background-image: url(img/temp.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Investigations</h2>
@@ -73,7 +75,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-7 wow fadeIn" data-wow-delay="1.2s">
                         <div class="events-box dark" style="background-image: url(img/1.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Security Systems</h2>
@@ -153,10 +155,10 @@
         <section id="homepage-quotes" class="font-primary p-tb-none">
             <div class="container">
                 <div class="row flex-row">
-                    <div class="col-sx-12 col-sm-3">
+                    <div class="col-sx-12 col-sm-3 wow fadeIn" data-wow-delay="0.3s">
                         <img src="img/2.jpg" class="img-responsive">
                     </div>
-                    <div class="col-sx-12 col-sm-9">
+                    <div class="col-sx-12 col-sm-9 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="quote-flex text-center">
                             <h1>" You can judge the success of man by his bodyguards "</h1>
                         </div>
