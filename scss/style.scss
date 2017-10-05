@@ -332,7 +332,7 @@ footer {
     }
     .services-section {
         @extend .relative-box;
-        border: 8px solid lighten($color-base, 10%);
+        border: 3px solid lighten($color-base, 10%);
         padding: 50px 0 0 30px;
         margin: 50px 0;
         color: darken($color-white, 10%);
