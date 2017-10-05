@@ -1,9 +1,9 @@
 <div class="header">
 
-    <nav class="navbar navbar-fixed-top p-tb-md">
+    <nav class="navbar navbar-fixed-top">
 
         <div class="container">
-            <div class="contact-header p-tb-md">
+            <div class="contact-header p-tb-xxs">
                 <div class="row">
                     <div class="col-lg-12 text-right">
                         <span><i class="fa fa-phone-square"></i> : 000-1101-222-333</span>

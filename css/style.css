@@ -258,12 +258,12 @@ section {
   -moz-animation-delay: 5.5s;
   animation-delay: 5.5s; }
 
-.relative-box, footer .footer .table tbody tr td form, #homepage-events, #homepage-events .events-section, #homepage-events .events-section .events-box, #homepage-events .events-section .events-box .box-details, #homepage-statistics, #homepage-statistics .counter-box, #homepage-services {
+.relative-box, footer .footer .table tbody tr td form, #homepage-events, #homepage-events .events-section, #homepage-events .events-section .events-box, #homepage-events .events-section .events-box .box-details, #homepage-statistics, #homepage-statistics .counter-box, #homepage-services, #homepage-services .services-section {
   position: relative;
   min-height: 1px;
   width: 100%;
   float: left; }
-  .relative-box:after, footer .footer .table tbody tr td form:after, #homepage-events:after, #homepage-events .events-section:after, #homepage-events .events-section .events-box:after, #homepage-events .events-section .events-box .box-details:after, #homepage-statistics:after, #homepage-statistics .counter-box:after, #homepage-services:after {
+  .relative-box:after, footer .footer .table tbody tr td form:after, #homepage-events:after, #homepage-events .events-section:after, #homepage-events .events-section .events-box:after, #homepage-events .events-section .events-box .box-details:after, #homepage-statistics:after, #homepage-statistics .counter-box:after, #homepage-services:after, #homepage-services .services-section:after {
     content: '';
     clear: both; }
 
@@ -326,7 +326,7 @@ section {
       width: 17px;
       height: 17px;
       z-index: 0;
-      border: 1.5px solid #2a2e31;
+      border: 1.5px solid #111214;
       border-radius: 1px;
       margin-top: 2px;
       -webkit-transition: .2s;
@@ -334,6 +334,16 @@ section {
 
 body {
   font-family: "Roboto", sans-serif; }
+
+.btn-theme, #homepage-events .events-section .events-box .box-details .btn-link, #homepage-services .services-section .services-description .btn-link {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid;
+  display: inline-block;
+  padding: 9px 18px;
+  margin: 1em 0;
+  text-decoration: none; }
 
 .scrollFixed {
   background: rgba(0, 0, 0, 0.9); }
@@ -506,15 +516,6 @@ footer {
     #homepage-events .events-section .events-box .box-details .box-description {
       font-size: 1rem;
       margin: 1em 0; }
-    #homepage-events .events-section .events-box .box-details .btn-link {
-      font-size: 0.9rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      border: 2px solid;
-      display: inline-block;
-      padding: 9px 18px;
-      margin: 1em 0;
-      text-decoration: none; }
 
 #homepage-quotes .flex-row {
   display: flex;
@@ -530,11 +531,12 @@ footer {
 
 #homepage-statistics {
   background-image: url(../img/skyline.jpg);
-  background-attachment: fixed;
+  background-position: center top;
   background-size: cover;
   color: #ddd; }
   #homepage-statistics .counter-box {
-    border: 3px solid #666; }
+    border: 3px solid #666;
+    border-bottom: 0; }
     #homepage-statistics .counter-box .counter-count {
       position: absolute;
       bottom: -18px;
@@ -551,10 +553,63 @@ footer {
     color: white; }
 
 #homepage-services {
-  background-color: #0d0d0d;
+  background-color: #111214;
   padding: 30px 0 50px; }
   #homepage-services .title h2 {
     color: #ffffff; }
+  #homepage-services .services-section {
+    border: 8px solid #282b30;
+    padding: 50px 0 0 30px;
+    margin: 50px 0;
+    color: #e6e6e6; }
+    #homepage-services .services-section .services-description {
+      padding-top: 50px; }
+      #homepage-services .services-section .services-description p {
+        font-size: 0.9rem;
+        line-height: 1.5em;
+        margin-bottom: 2em; }
+      #homepage-services .services-section .services-description .btn-link {
+        border-color: #575c67;
+        color: #e51e3b; }
+    #homepage-services .services-section .services-grid {
+      padding: 30px 0 30px 30px;
+      background: #111214;
+      -webkit-tranform: translateX(8px);
+      -moz-transform: translateX(8px);
+      -ms-transform: translateX(8px);
+      -o-transform: translateX(8px);
+      transform: translateX(8px);
+      margin-top: -140px; }
+      #homepage-services .services-section .services-grid .list-grid li {
+        width: 50%;
+        padding: 0;
+        float: left; }
+        #homepage-services .services-section .services-grid .list-grid li a {
+          display: block;
+          height: 180px;
+          background-color: #ffffff;
+          color: #000000;
+          position: relative; }
+          #homepage-services .services-section .services-grid .list-grid li a span {
+            position: absolute;
+            left: 20px;
+            display: block;
+            top: 50px;
+            word-spacing: 100vw;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            font-weight: 700;
+            font-family: "Roboto", sans-serif;
+            letter-spacing: 1px; }
+          #homepage-services .services-section .services-grid .list-grid li a i {
+            position: absolute;
+            right: 20px;
+            display: block;
+            top: 130px;
+            font-size: 1.5rem; }
+        #homepage-services .services-section .services-grid .list-grid li:nth-child(2) a, #homepage-services .services-section .services-grid .list-grid li:nth-child(3) a, #homepage-services .services-section .services-grid .list-grid li:nth-child(6) a {
+          background-color: #e51e3b;
+          color: #ffffff; }
 
 #homepage-feedback .test-head {
   border: 4px solid #666; }

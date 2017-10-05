@@ -4,6 +4,16 @@
 body {
     font-family: $font-secondary;
 }
+.btn-theme{
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid;
+    display: inline-block;
+    padding: 9px 18px;
+    margin: 1em 0;
+    text-decoration: none;
+}
 
 .scrollFixed {
     background: rgba(0, 0, 0, 0.9);
@@ -180,11 +190,11 @@ footer {
     }
     .events-section {
         @extend .relative-box;
-        >div:nth-child(odd) {
+        > div:nth-child(odd) {
             padding-left: 0;
             padding-right: 10px;
         }
-        >div:nth-child(even) {
+        > div:nth-child(even) {
             padding-left: 10px;
             padding-right: 0;
         }
@@ -249,14 +259,7 @@ footer {
                     margin: 1em 0;
                 }
                 .btn-link {
-                    font-size: 0.9rem;
-                    font-weight: 700;
-                    text-transform: uppercase;
-                    border: 2px solid;
-                    display: inline-block;
-                    padding: 9px 18px;
-                    margin: 1em 0;
-                    text-decoration: none;
+                    @extend .btn-theme;
                 }
             }
         }
@@ -285,12 +288,13 @@ footer {
 #homepage-statistics {
     @extend .relative-box;
     background-image: url(../img/skyline.jpg);
-    background-attachment: fixed;
+    background-position: center top;
     background-size: cover;
     color: #ddd;
     .counter-box {
         @extend .relative-box;
         border: 3px solid #666;
+        border-bottom: 0;
         .counter-count {
             position: absolute;
             bottom: -18px;
@@ -318,12 +322,79 @@ footer {
 // Homepage Service--------------------------------------------------------------------------------------------------------------
 #homepage-services {
     @extend .relative-box;
-    background-color: lighten($color-black, 5%);
+    background-color: $color-base;
     padding: 30px 0 50px;
     .title {
         h2 {
             @extend .section-title;
             color: $color-white;
+        }
+    }
+    .services-section {
+        @extend .relative-box;
+        border: 8px solid lighten($color-base, 10%);
+        padding: 50px 0 0 30px;
+        margin: 50px 0;
+        color: darken($color-white, 10%);
+        .services-description {
+            padding-top: 50px;
+            p {
+                font-size: 0.9rem;
+                line-height: 1.5em;
+                margin-bottom: 2em;
+            }
+            .btn-link{
+                @extend .btn-theme;
+                border-color: lighten($color-base, 30%);
+                color: $color-main;
+            }
+        }
+        .services-grid {
+            padding: 30px 0 30px 30px;
+            background: $color-base;
+            @include transform(translateX(8px));
+            margin-top: -140px;
+            .list-grid {
+                li {
+                    width: 50%;
+                    padding: 0;
+                    float: left;
+                    a {
+                        display: block;
+                        height: 180px;
+                        background-color: $color-white;
+                        color: $color-black;
+                        position: relative;
+                        span {
+                            position: absolute;
+                            left: 20px;
+                            display: block;
+                            top: 50px;
+                            word-spacing: 100vw;
+                            text-transform: uppercase;
+                            font-size: 0.85rem;
+                            font-weight: 700;
+                            font-family: $font-secondary;
+                            letter-spacing: 1px;
+                        }
+                        i {
+                            position: absolute;
+                            right: 20px;
+                            display: block;
+                            top: 130px;
+                            font-size: 1.5rem;
+                        }
+                    }
+                    &:nth-child(2),
+                    &:nth-child(3),
+                    &:nth-child(6) {
+                        a {
+                            background-color: $color-main;
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
         }
     }
 }

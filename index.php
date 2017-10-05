@@ -19,7 +19,7 @@
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
+<!--            <li data-target="#myCarousel" data-slide-to="1"></li>-->
         </ol>
 
         <!-- Wrapper for slides -->
@@ -31,9 +31,11 @@
                 </div>
                 <img src="img/1.jpg" alt="" title="Starbull Security">
             </div>
+<!--
             <div class="item">
                 <img src="img/4.jpg" alt="" title="Starbull Security">
             </div>
+-->
         </div>
 
     </div>
@@ -46,7 +48,7 @@
                     <h2>Events</h2>
                 </div>
                 <div class="events-section">
-                    <div class="col-md-7">
+                    <div class="col-md-7 wow fadeIn" data-wow-delay="0.3s">
                         <div class="events-box dark" style="background-image: url(img/1.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Security Consulting</h2>
@@ -55,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 wow fadeIn" data-wow-delay="0.6s">
                         <div class="events-box light" style="background-image: url(img/temp.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Close Protection</h2>
@@ -64,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 wow fadeIn" data-wow-delay="0.9s">
                         <div class="events-box light" style="background-image: url(img/temp.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Investigations</h2>
@@ -73,7 +75,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-7 wow fadeIn" data-wow-delay="1.2s">
                         <div class="events-box dark" style="background-image: url(img/1.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Security Systems</h2>
@@ -92,6 +94,60 @@
                 <div class="title">
                     <h2>Security Services</h2>
                 </div>
+                <div class="services-section">
+                    <div class="col-md-6 services-description">
+                        <p>
+                            To prevent tampering and unauthorized entry into the premises by our engineers developed a burglar alarm system in the house. 
+                        </p>
+                        <p>
+                            Installation of the alarm will be an effective means of protection of the property when you leave the house unattended. 
+                        </p>
+                        <p>
+                            Innovative technologies for the protection of housing makes the cost of the security system for a country house fully justified.
+                        </p>
+                        <a href="javascript:void()" class="btn btn-link">More Details</a>
+                    </div>
+                    <div class="col-xs-12 col-md-6 services-grid">
+                        <ul class="list-unstyled list-grid">
+                            <li>
+                                <a href="javascript:void()" class="service-link">
+                                    <span class="service-name">CCTV SYSTEMS</span>
+                                    <i class="fa fa-camera service-icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()" class="service-link">
+                                    <span class="service-name">Intruder Alarms</span>
+                                    <i class="material-icons service-icon">notifications_active</i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()" class="service-link">
+                                    <span class="service-name">Fire Alarm</span>
+                                    <i class="fa fa-free-code-camp service-icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()" class="service-link">
+                                    <span class="service-name">Access Control</span>
+                                    <i class="material-icons service-icon">fingerprint</i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()" class="service-link">
+                                    <span class="service-name">Physical Protection</span>
+                                    <i class="material-icons service-icon">security</i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void()" class="service-link">
+                                    <span class="service-name">Rapid Response</span>
+                                    <i class="fa fa-taxi service-icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
         <div class="clearfix"></div>
@@ -99,10 +155,10 @@
         <section id="homepage-quotes" class="font-primary p-tb-none">
             <div class="container">
                 <div class="row flex-row">
-                    <div class="col-sx-12 col-sm-3">
+                    <div class="col-sx-12 col-sm-3 wow fadeIn" data-wow-delay="0.3s">
                         <img src="img/2.jpg" class="img-responsive">
                     </div>
-                    <div class="col-sx-12 col-sm-9">
+                    <div class="col-sx-12 col-sm-9 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="quote-flex text-center">
                             <h1>" You can judge the success of man by his bodyguards "</h1>
                         </div>
@@ -146,7 +202,7 @@
                     </div>
                 </div>
                 <div class="clearfix"></div>
-                <div class="row m-t-md">
+                <div class="row m-t-xxl">
                     <div class="col-xs-12 stats-text">
                         <h3>With over 5 decades of experience, We deliver</h3>
                         <h2 class="text-uppercase m-b-xl"><strong>premium security solution at best price</strong></h2>
