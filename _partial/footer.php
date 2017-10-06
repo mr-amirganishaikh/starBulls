@@ -115,6 +115,6 @@
         </div>
     </div>
 </div>
-<div class="scroll-top">
+<div class="backtotop">
     <i class="fa fa-arrow-up"></i>
 </div>
