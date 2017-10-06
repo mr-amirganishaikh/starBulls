@@ -1,7 +1,7 @@
 /*Call functions on document ready*/
 $(document).ready(function () {
     //testimonial
-    $(".testimonial-bullets span").click(function(){
+    $(".testimonial-bullets span").click(function () {
         var gettestno = $(this).attr("testi");
         $(".testimonial-bullets span").removeClass("test-bullet-active");
         $(this).addClass("test-bullet-active");
@@ -12,7 +12,10 @@ $(document).ready(function () {
 
 /*Call functions on window load*/
 $(window).load(function () {
-
+    var img_height = $(".img-height").height();
+    var quote_height = $(".quote-height").height();
+    var height_diff = img_height - quote_height;
+    $(".quote-height").css("margin-top",height_diff/2);
 });
 
 /* Call function on window scroll */

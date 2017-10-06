@@ -26,8 +26,8 @@
         <div class="carousel-inner">
             <div class="item active">
                 <div class="sub-item text-center">
-                    <img class="wow flipInY" src="img/starbullslogo.png" width="150px">
-                    <h1 class="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1s">Premium security services<br>Trusted by millions</h1>
+                    <img src="img/starbullslogo.png" width="150px">
+                    <h1>Premium security services<br>Trusted by millions</h1>
                 </div>
                 <img src="img/1.jpg" alt="" title="Starbull Security">
             </div>
@@ -154,13 +154,13 @@
 
         <section id="homepage-quotes" class="font-primary p-tb-none">
             <div class="container">
-                <div class="row flex-row">
+                <div class="row">
                     <div class="col-sx-12 col-sm-3 wow fadeIn" data-wow-delay="0.3s">
-                        <img src="img/2.jpg" class="img-responsive">
+                        <img src="img/2.jpg" class="img-responsive img-height">
                     </div>
                     <div class="col-sx-12 col-sm-9 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="quote-flex text-center">
-                            <h1>" You can judge the success of man by his bodyguards "</h1>
+                        <div class=" text-center">
+                            <h1 class="quote-height">" You can judge the success of man by his bodyguards "</h1>
                         </div>
                     </div>
                 </div>
