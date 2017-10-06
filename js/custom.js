@@ -15,7 +15,7 @@ $(window).load(function () {
     var img_height = $(".img-height").height();
     var quote_height = $(".quote-height").height();
     var height_diff = img_height - quote_height;
-    $(".quote-height").css("margin-top",height_diff/2);
+    $(".quote-height").css("margin-top", height_diff / 2);
 });
 
 /* Call function on window scroll */
@@ -25,6 +25,17 @@ $(window).scroll(function () {
         target: '.navbar',
         offset: 0
     });
+    var conthead_height = $(".contact-header").height();
+    var headscroll = $(window).scrollTop();
+    //    alert(conthead_height);
+    //    alert(headscroll);
+    if (headscroll > conthead_height) {
+        $("#myNavbar").addClass("fix-navbar");
+        $("#myNavbar").addClass("scrollFixed");
+    } else {
+        $("#myNavbar").removeClass("fix-navbar");
+        $("#myNavbar").removeClass("scrollFixed");
+    }
 });
 
 
@@ -33,22 +44,22 @@ $(window).scroll(function () {
 
 // Start Add/remove class on scroll
 var fixScrollNav = function (options) {
-        // Target declaration
-        var target = options.target;
+    // Target declaration
+    var target = options.target;
 
-        // offset and offsetHeight declaration
-        var offset = options.offset;
-        var offsetHeight = 0;
-        if (isNaN(offset)) {
-            offsetHeight = $(offset).outerHeight();
-        } else {
-            offsetHeight = offset;
-        }
-
-        if ($(window).scrollTop() > offsetHeight) {
-            $(target).addClass("scrollFixed");
-        } else {
-            $(target).removeClass("scrollFixed");
-        }
+    // offset and offsetHeight declaration
+    var offset = options.offset;
+    var offsetHeight = 0;
+    if (isNaN(offset)) {
+        offsetHeight = $(offset).outerHeight();
+    } else {
+        offsetHeight = offset;
     }
-    // End Add/remove class on scroll
+
+    if ($(window).scrollTop() > offsetHeight) {
+        $(target).addClass("scrollFixed");
+    } else {
+        $(target).removeClass("scrollFixed");
+    }
+}
+// End Add/remove class on scroll
