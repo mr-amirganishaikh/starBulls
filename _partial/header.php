@@ -1,6 +1,6 @@
 <div class="header header-abs">
     <nav class="navbar">
-        <div class="contact-header p-tb-xxs">
+        <div class="contact-header p-tb-sm">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-right">
@@ -18,7 +18,7 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <div class="collapse fix-navbar navbar-collapse" id="myNavbar">
+        <div class="collapse navbar-collapse" id="myNavbar">
             <div class="container">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Home</a></li>

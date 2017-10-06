@@ -105,6 +105,16 @@
 </div>
 <div class="copyrights p-tb-xl text-center">
     <div class="container">
-        <p>copyright 2017 all rights reserved. Privacy policy Terms & condition</p>
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-8">
+                <p>copyright 2017 all rights reserved. Privacy policy Terms & condition</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <p>Site by <a href="http://kreativesanity.com/" class="m-l-xxs">Kreative Sanity</a></p>
+            </div>
+        </div>
     </div>
+</div>
+<div class="scroll-top">
+    <i class="fa fa-arrow-up"></i>
 </div>
