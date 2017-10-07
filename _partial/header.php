@@ -19,7 +19,7 @@
             </button>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
-            <div class="container">
+            <div id="switch-cont" class="container" style="transition:all 0.5s;">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
@@ -34,6 +34,9 @@
                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                 </ul>
             </div>
+        </div>
+        <div class="fix-logo-top">
+            <img class="img-responsive" src="img/starbullslogo.png">
         </div>
     </nav>
 

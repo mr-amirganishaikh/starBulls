@@ -8,6 +8,12 @@ $(document).ready(function () {
         $(".testimonials").hide();
         $(gettestno).fadeIn(1000);
     });
+
+    $('.backtotop').on('click', function() {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1000);
+        });
 });
 
 /*Call functions on window load*/
@@ -29,13 +35,24 @@ $(window).scroll(function () {
     var headscroll = $(window).scrollTop();
     //    alert(conthead_height);
     //    alert(headscroll);
+    if (headscroll > 500) {
+        $('.backtotop').show();
+    } else {
+        $('.backtotop').hide();
+    }
+    
     if (headscroll > conthead_height) {
         $("#myNavbar").addClass("fix-navbar");
         $("#myNavbar").addClass("scrollFixed");
+        $("#switch-cont").addClass("container-fluid").removeClass("container");
+        $(".fix-logo-top").css("top","0");
     } else {
         $("#myNavbar").removeClass("fix-navbar");
         $("#myNavbar").removeClass("scrollFixed");
+        $("#switch-cont").addClass("container").removeClass("container-fluid");
+        $(".fix-logo-top").css("top","-100px");
     }
+    
 });
 
 
@@ -44,22 +61,22 @@ $(window).scroll(function () {
 
 // Start Add/remove class on scroll
 var fixScrollNav = function (options) {
-    // Target declaration
-    var target = options.target;
+        // Target declaration
+        var target = options.target;
 
-    // offset and offsetHeight declaration
-    var offset = options.offset;
-    var offsetHeight = 0;
-    if (isNaN(offset)) {
-        offsetHeight = $(offset).outerHeight();
-    } else {
-        offsetHeight = offset;
-    }
+        // offset and offsetHeight declaration
+        var offset = options.offset;
+        var offsetHeight = 0;
+        if (isNaN(offset)) {
+            offsetHeight = $(offset).outerHeight();
+        } else {
+            offsetHeight = offset;
+        }
 
-    if ($(window).scrollTop() > offsetHeight) {
-        $(target).addClass("scrollFixed");
-    } else {
-        $(target).removeClass("scrollFixed");
+        if ($(window).scrollTop() > offsetHeight) {
+            $(target).addClass("scrollFixed");
+        } else {
+            $(target).removeClass("scrollFixed");
+        }
     }
-}
-// End Add/remove class on scroll
+    // End Add/remove class on scroll
