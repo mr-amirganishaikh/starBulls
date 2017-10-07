@@ -110,7 +110,7 @@
                 <p>copyright 2017 all rights reserved. Privacy policy Terms & condition</p>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
-                <p>Site by <a href="http://kreativesanity.com/" class="m-l-xxs">Kreative Sanity</a></p>
+                <p>Site by <a href="http://kreativesanity.com/" target="_blank" class="m-l-xxs">Kreative Sanity</a></p>
             </div>
         </div>
     </div>
