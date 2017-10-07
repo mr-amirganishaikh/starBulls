@@ -171,32 +171,36 @@
         <section id="homepage-statistics" class="text-center font-primary" style="padding:75px 0">
             <div class="full-black-overlay"></div>
             <div class="container">
-                <div class="row m-t-md m-b-xxl">
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <div class="row m-t-md">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-xxl">
                         <div class="counter-box">
                             <h4 class="text-uppercase m-none p-tb-xxl">event served</h4>
                             <strong class="counter-count p-lr-sm">1k+</strong>
+                            <div class="count-lr-bor"></div>
                             <i class="fa fa-caret-down"></i>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-xxl">
                         <div class="counter-box">
                             <h4 class="text-uppercase m-none p-tb-xxl">Qualified Staff</h4>
                             <strong class="counter-count p-lr-sm">450</strong>
+                            <div class="count-lr-bor"></div>
                             <i class="fa fa-caret-down"></i>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-xxl">
                         <div class="counter-box">
                             <h4 class="text-uppercase m-none p-tb-xxl">our locations</h4>
                             <strong class="counter-count p-lr-sm">1200</strong>
+                            <div class="count-lr-bor"></div>
                             <i class="fa fa-caret-down"></i>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-xxl">
                         <div class="counter-box">
                             <h4 class="text-uppercase m-none p-tb-xxl">area serving</h4>
                             <strong class="counter-count p-lr-sm">550</strong>
+                            <div class="count-lr-bor"></div>
                             <i class="fa fa-caret-down"></i>
                         </div>
                     </div>
