@@ -44,9 +44,13 @@ $(window).scroll(function () {
     if (headscroll > conthead_height) {
         $("#myNavbar").addClass("fix-navbar");
         $("#myNavbar").addClass("scrollFixed");
+        $("#switch-cont").addClass("container-fluid").removeClass("container");
+        $(".fix-logo-top").css("top","0");
     } else {
         $("#myNavbar").removeClass("fix-navbar");
         $("#myNavbar").removeClass("scrollFixed");
+        $("#switch-cont").addClass("container").removeClass("container-fluid");
+        $(".fix-logo-top").css("top","-100px");
     }
     
 });

@@ -69,6 +69,13 @@ body {
             color: white;
         }
     }
+    .fix-logo-top {
+        position: fixed;
+        width: 70px;
+        top: -100px;
+        left: calc(50% - 35px);
+        transition: all 0.5s;
+    }
 }
 
 .nav {

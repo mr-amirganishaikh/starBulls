@@ -6,3 +6,6 @@
 <link href="css/freaking-custom.css" rel="stylesheet" />
 <link href="css/animate.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
+
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">

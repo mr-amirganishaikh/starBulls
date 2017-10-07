@@ -387,6 +387,12 @@ body {
     display: inline-block;
     margin-left: 25px;
     color: white; }
+  .navbar .fix-logo-top {
+    position: fixed;
+    width: 70px;
+    top: -100px;
+    left: calc(50% - 35px);
+    transition: all 0.5s; }
 
 .nav li a {
   padding: 8px 15px;
