@@ -43,30 +43,35 @@ body {
 
 .backtotop {
     position: fixed;
-    right: 30px;
+    right: 0;
+    opacity: 0;
     bottom: 30px;
     border-radius: 50%;
     background: $color-main;
-    color: white;
+    color: $color-white;
     cursor: pointer;
-    transition: all 0.5s;
+    @include transition(all 0.35s);
     &:hover {
         box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.6);
     }
     i {
         padding: 15px;
     }
+    &.active{
+        right: 30px;
+        opacity: 1;
+    }
 }
 
 //navbar css
 .navbar {
     border: 0;
-    transition: all 0.5s;
+    @include transition(all 0.5s);
     .contact-header {
         span {
             display: inline-block;
             margin-left: 25px;
-            color: white;
+            color: $color-white;
         }
     }
     .fix-logo-top {
@@ -74,7 +79,7 @@ body {
         width: 70px;
         top: -100px;
         left: calc(50% - 35px);
-        transition: all 0.5s;
+        @include transition(all 0.5s);
     }
 }
 
@@ -91,8 +96,8 @@ body {
             }
             &:hover {
                 background-color: transparent;
-                box-shadow: 0 0 1px 1px #fff;
-                color: white;
+                box-shadow: 0 0 1px 1px $color-white;
+                color: $color-white;
             }
         }
     }
@@ -111,7 +116,7 @@ body {
             &:hover {
                 background-color: transparent;
                 box-shadow: 0 0 0 0;
-                color: white;
+                color: $color-white;
             }
         }
     }
@@ -133,7 +138,7 @@ body {
                     font-size: 4rem;
                     font-weight: 900;
                     color: #ddd;
-                    text-shadow: 4px 4px 10px #000;
+                    text-shadow: 4px 4px 10px $color-black;
                     letter-spacing: 3px;
                 }
             }
@@ -144,31 +149,34 @@ body {
             width: 20px;
             height: 20px;
             border: 4px solid #aaa;
-            background-color: #fff;
+            background-color: $color-white;
         }
         .active {
             width: 20px;
             height: 20px;
-            border: 4px solid black;
-            background-color: #fff;
+            border: 4px solid $color-black;
+            background-color: $color-white;
         }
     }
 }
 
 //footer css
 footer {
-    background-color: #222;
-    color: #aaa;
+    background-color: $color-base;
+    color: lighten($color-base, 50%);
     .footer {
         .table {
             tbody {
                 tr {
+                    @include transition(all 0.35s);
                     td {
                         border: 0;
                         a {
-                            color: #aaa;
+                            color: lighten($color-base, 50%);
+                            text-decoration: none;
+                            @include transition(all 0.35s);
                             &:hover {
-                                color: #ccc;
+                                color: lighten($color-main, 10%);
                             }
                         }
                         form {
@@ -188,7 +196,7 @@ footer {
                         }
                     }
                     th {
-                        color: white;
+                        color: $color-white;
                         height: 123px;
                         vertical-align: middle;
                         text-transform: uppercase;
@@ -203,15 +211,50 @@ footer {
                         }
                     }
                 }
+                .tw:hover{
+                    @extend .twitter-text;
+                    a{
+                        @extend .twitter-text;
+                    }
+                }
+                .fb:hover{
+                    @extend .facebook-text;
+                    a{
+                        @extend .facebook-text;
+                    }
+                }
+                .pin:hover{
+                    @extend .pinterest-text;
+                    a{
+                        @extend .pinterest-text;
+                    }
+                }
+                .insta:hover{
+                    @extend .instagram-text;
+                    a{
+                        @extend .instagram-text;
+                    }
+                }
             }
         }
     }
     .copyrights {
-        border-top: 1px solid #333;
+        border-top: 1px solid lighten($color-base, 40%);
+        color: lighten($color-base, 40%);
         p {
-            color: #555;
             text-transform: uppercase;
             font-size: 0.8rem;
+            a{
+                color: lighten($color-base, 50%);
+                text-decoration: none;
+                @include transition(all 0.35s);
+                &:hover{
+                    color: lighten($color-main, 10%);
+                }
+            }
+            &.credits{
+                text-align: right;
+            }
         }
     }
 }
@@ -306,7 +349,7 @@ footer {
 }
 
 //homepage quotes------------------------------------------------------------------------------------------------------------
-#homepage-quotes {
+/*#homepage-quotes {
     .flex-row {
         display: flex;
         flex-direction: row;
@@ -321,11 +364,28 @@ footer {
             }
         }
     }
+}*/
+
+#homepage-quotes{
+    @extend .relative-box;
+    .quotes-text{
+        display: table;
+        width: 100%;
+        h3{
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            font-family: $font-primary;
+        }
+    }
 }
 
 //homepage statistics------------------------------------------------------------------------------------------------------------
 #homepage-statistics {
     @extend .relative-box;
+    padding: 30px 0 50px;
     background-image: url(../img/skyline.jpg);
     background-position: center top;
     background-size: cover;
@@ -377,7 +437,7 @@ footer {
     .stats-text {
         h3 {}
         h2 {
-            color: white;
+            color: $color-white;
         }
         p {}
     }
@@ -396,7 +456,7 @@ footer {
     }
     .services-section {
         @extend .relative-box;
-        border: 3px solid lighten($color-base, 10%);
+        border: 8px solid lighten($color-base, 10%);
         padding: 50px 0 0 30px;
         margin: 50px 0;
         color: darken($color-white, 10%);
@@ -464,13 +524,15 @@ footer {
 }
 
 #homepage-feedback {
+    @extend .relative-box;
+    padding: 30px 0 50px;
     .test-head {
         border: 3px solid #666;
         p {
             position: absolute;
             top: -12px;
             font-size: 12px;
-            background: white;
+            background: $color-white;
             left: calc(50% - 88px);
         }
         h3 {}

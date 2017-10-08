@@ -11,15 +11,15 @@
                         </tr>
                         <tr>
                             <td><i class="fa fa-phone"></i></td>
-                            <td>000-1101-222-333</td>
+                            <td><a href="tel:0001101222333">000-1101-222-333</a></td>
                         </tr>
                         <tr>
                             <td><i class="fa fa-envelope"></i></td>
-                            <td>info@starbulls.com</td>
+                            <td><a href="mailto:info@starbulls.com">info@starbulls.com</a></td>
                         </tr>
                         <tr>
                             <td><i class="fa fa-home"></i></td>
-                            <td>6 / 20, Air-Condition Market Building, Tardeo Road, Tardeo,Mumbai - 400 034.</td>
+                            <td><a href="https://www.google.co.in/maps">6 / 20, Air-Condition Market Building, Tardeo Road, Tardeo,Mumbai - 400 034.</a></td>
                         </tr>
                     </table>
                 </div>
@@ -32,21 +32,21 @@
                                 <p><strong>Connect with us</strong></p>
                             </th>
                         </tr>
-                        <tr>
+                        <tr class="tw">
                             <td style="width: 30px;"><i class="fa fa-twitter"></i></td>
-                            <td>Twitter</td>
+                            <td><a href="https://www.twitter.com/">Twitter</a></td>
                         </tr>
-                        <tr>
+                        <tr class="fb">
                             <td><i class="fa fa-facebook"></i></td>
-                            <td>Facebook</td>
+                            <td><a href="https://www.facebook.com/">Facebook</a></td>
                         </tr>
-                        <tr>
+                        <tr class="pin">
                             <td><i class="fa fa-pinterest"></i></td>
-                            <td>Pinterest</td>
+                            <td><a href="https://www.pinterest.com/">Pinterest</a></td>
                         </tr>
-                        <tr>
+                        <tr class="insta">
                             <td><i class="fa fa-instagram"></i></td>
-                            <td>Instagram</td>
+                            <td><a href="https://www.instagram.com/">Instagram</a></td>
                         </tr>
                     </table>
                 </div>
@@ -103,14 +103,14 @@
         </div>
     </div>
 </div>
-<div class="copyrights p-tb-xl text-center">
+<div class="copyrights p-tb-xl">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-md-8">
-                <p>copyright 2017 all rights reserved. Privacy policy Terms & condition</p>
+                <p>copyright &copy; 2017 all rights reserved. <a href="javascript:void()">Privacy policy</a> | <a href="javascript:void()">Terms &amp; condition</a></p>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
-                <p>Site by <a href="http://kreativesanity.com/" target="_blank" class="m-l-xxs">Kreative Sanity</a></p>
+                <p class="credits">Site by <a href="http://www.kreativesanity.com/" target="_blank">Kreative Sanity</a></p>
             </div>
         </div>
     </div>
