@@ -57,7 +57,7 @@ body {
     i {
         padding: 15px;
     }
-    &.active{
+    &.active {
         right: 30px;
         opacity: 1;
     }
@@ -211,27 +211,27 @@ footer {
                         }
                     }
                 }
-                .tw:hover{
+                .tw:hover {
                     @extend .twitter-text;
-                    a{
+                    a {
                         @extend .twitter-text;
                     }
                 }
-                .fb:hover{
+                .fb:hover {
                     @extend .facebook-text;
-                    a{
+                    a {
                         @extend .facebook-text;
                     }
                 }
-                .pin:hover{
+                .pin:hover {
                     @extend .pinterest-text;
-                    a{
+                    a {
                         @extend .pinterest-text;
                     }
                 }
-                .insta:hover{
+                .insta:hover {
                     @extend .instagram-text;
-                    a{
+                    a {
                         @extend .instagram-text;
                     }
                 }
@@ -244,15 +244,15 @@ footer {
         p {
             text-transform: uppercase;
             font-size: 0.8rem;
-            a{
+            a {
                 color: lighten($color-base, 50%);
                 text-decoration: none;
                 @include transition(all 0.35s);
-                &:hover{
+                &:hover {
                     color: lighten($color-main, 10%);
                 }
             }
-            &.credits{
+            &.credits {
                 text-align: right;
             }
         }
@@ -349,6 +349,7 @@ footer {
 }
 
 //homepage quotes------------------------------------------------------------------------------------------------------------
+
 /*#homepage-quotes {
     .flex-row {
         display: flex;
@@ -366,12 +367,12 @@ footer {
     }
 }*/
 
-#homepage-quotes{
+#homepage-quotes {
     @extend .relative-box;
-    .quotes-text{
+    .quotes-text {
         display: table;
         width: 100%;
-        h3{
+        h3 {
             display: table-cell;
             vertical-align: middle;
             text-align: center;
@@ -576,4 +577,49 @@ footer {
             border-bottom: 1px solid $color-main;
         }
     }
+}
+
+//-------------------------------------------------------------about us css-------------------------------------------------------------
+.about-box {
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+    background: white;
+    .about-box-border {
+        border: 2px solid #666;
+    }
+    .about-box-head {
+        @extend .about-box-border;
+        border-bottom: 0;
+        h3 {
+            margin: 0;
+            padding: 15px 0;
+        }
+    }
+    .about-box-content {
+        @extend .about-box-border;
+        p {
+            margin: 0;
+        }
+    }
+    .about-box-red {
+        @extend .about-box-border;
+        background: $color-main;
+        color: white;
+        border-left: 0;
+        display: table;
+        h1 {
+            margin: 0;
+        }
+    }
+}
+
+.about-vert-divider {
+    position: absolute;
+    left: 0;
+    top: -90px;
+    width: 50%;
+    height: calc(100% + 130px);
+    border-right: 2px dashed #444;
+    z-index: -1;
 }

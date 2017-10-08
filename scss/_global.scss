@@ -15,18 +15,10 @@ body {
     font-size: 1rem;
 }
 
+
 /*section {
     padding: 30px 0 50px;
 }*/
-
-.full-black-overlay {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
 // Scrollbar 
 ::-webkit-scrollbar {
@@ -238,4 +230,37 @@ body {
             transition: .2s;
         }
     }
+}
+
+.page-banner {
+    @extend .relative-box;
+    margin-bottom: 90px;
+    .page-name {
+        position: absolute;
+        top: 50%;
+        color: white;
+        width: 100%;
+        h1 {
+            font-size: 3rem;
+        }
+    }
+    .page-banner-logo {
+        position: absolute;
+        width: 6%;
+        left: 47%;
+        bottom: -50px;
+    }
+}
+.vert-cent{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.full-black-overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
 }
