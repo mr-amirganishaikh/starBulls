@@ -1,4 +1,4 @@
-/*Call functions on document ready*/
+/* Call functions on document ready */
 $(document).ready(function () {
     //testimonial
     $(".testimonial-bullets span").click(function () {
@@ -10,13 +10,18 @@ $(document).ready(function () {
     });
 
     $('.backtotop').on('click', function() {
-            $('html, body').animate({
-                scrollTop: 0
-            }, 1000);
-        });
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000);
+    });
+    
+    eqHeight({
+        source: '#homepage-quotes img',
+        target: '.quotes-text'
+    });
 });
 
-/*Call functions on window load*/
+/* Call functions on window load */
 $(window).load(function () {
     var img_height = $(".img-height").height();
     var quote_height = $(".quote-height").height();
@@ -35,11 +40,11 @@ $(window).scroll(function () {
     var headscroll = $(window).scrollTop();
     //    alert(conthead_height);
     //    alert(headscroll);
-    if (headscroll > 500) {
+    /*if (headscroll > 500) {
         $('.backtotop').show();
     } else {
         $('.backtotop').hide();
-    }
+    }*/
     
     if (headscroll > conthead_height) {
         $("#myNavbar").addClass("fix-navbar");
@@ -53,6 +58,15 @@ $(window).scroll(function () {
         $(".fix-logo-top").css("top","-100px");
     }
     
+    goToTop('.backtotop');
+});
+
+/* Call functions on window resize */
+$(window).resize(function () {
+    eqHeight({
+        source: '#homepage-quotes img',
+        target: '.quotes-text'
+    });
 });
 
 
@@ -61,22 +75,51 @@ $(window).scroll(function () {
 
 // Start Add/remove class on scroll
 var fixScrollNav = function (options) {
-        // Target declaration
-        var target = options.target;
+    // Target declaration
+    var target = options.target;
 
-        // offset and offsetHeight declaration
-        var offset = options.offset;
-        var offsetHeight = 0;
-        if (isNaN(offset)) {
-            offsetHeight = $(offset).outerHeight();
-        } else {
-            offsetHeight = offset;
-        }
-
-        if ($(window).scrollTop() > offsetHeight) {
-            $(target).addClass("scrollFixed");
-        } else {
-            $(target).removeClass("scrollFixed");
-        }
+    // offset and offsetHeight declaration
+    var offset = options.offset;
+    var offsetHeight = 0;
+    if (isNaN(offset)) {
+        offsetHeight = $(offset).outerHeight();
+    } else {
+        offsetHeight = offset;
     }
-    // End Add/remove class on scroll
+
+    if ($(window).scrollTop() > offsetHeight) {
+        $(target).addClass("scrollFixed");
+    } else {
+        $(target).removeClass("scrollFixed");
+    }
+}
+// End Add/remove class on scroll
+
+/* Start of GOTOTOP function */
+var goToTop = function(target) {
+    if (($(window).scrollTop() > 100)) {
+        $(target).addClass('active');
+    } else {
+        $(target).removeClass('active');
+    }
+}
+/* End of GOTOTOP function */
+
+
+// Equal height function
+var eqHeight = function(options){
+    var targetH,
+        source = $(options.source),
+        target = $(options.target),
+        condition = options.condition;
+    
+    if(condition == 'oh'){
+        targetH = source.outerHeight();
+    }else if(condition == 'ih'){
+        targetH = source.innerHeight();
+    }else if(condition == undefined){
+        targetH = source.height();
+    }
+    
+    target.css('height',targetH);
+}

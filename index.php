@@ -152,16 +152,14 @@
         </section>
         <div class="clearfix"></div>
 
-        <section id="homepage-quotes" class="font-primary p-tb-none">
+        <section id="homepage-quotes">
             <div class="container">
-                <div class="row">
-                    <div class="col-sx-12 col-sm-3 wow fadeIn" data-wow-delay="0.3s">
-                        <img src="img/2.jpg" class="img-responsive img-height">
-                    </div>
-                    <div class="col-sx-12 col-sm-9 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class=" text-center">
-                            <h1 class="quote-height">" You can judge the success of man by his bodyguards "</h1>
-                        </div>
+                <div class="col-xs-12 col-sm-3">
+                    <img src="img/2.jpg" class="img-responsive">
+                </div>
+                <div class="col-xs-12 col-sm-9">
+                    <div class="quotes-text">
+                        <h3>&ldquo; You can judge the success of man by his bodyguards &rdquo;</h3>
                     </div>
                 </div>
             </div>
