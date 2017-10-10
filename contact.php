@@ -17,8 +17,24 @@
     </header>
     <div class="clearfix"></div>
 
-    <main>
+    <div class="page-banner">
+        <img src="img/page-banners/contact.jpg" class="img-responsive">
+        <div class="full-black-overlay">
+            <div class="page-name text-center">
+                <h1 class="text-uppercase"><strong>contact us</strong> </h1></div>
+        </div>
+        <div class="page-banner-logo">
+            <img src="img/starbullslogo.png" class="img-responsive">
+        </div>
+    </div>
+    <div class="clearfix"></div>
 
+    <main>
+        <div class="container">
+            <div class="row">
+
+            </div>
+        </div>
 
     </main>
 

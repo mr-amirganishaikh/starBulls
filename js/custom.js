@@ -8,16 +8,30 @@ $(document).ready(function () {
         $(".testimonials").hide();
         $(gettestno).fadeIn(1000);
     });
+    
+    $(".service-category").click(function(){
+        $(".service-category").removeClass("category-active");
+        $(this).addClass("category-active");
+        var get_cat = $(this).attr("set-cat");
+        $(".service-box-outer").hide();
+        $(get_cat).fadeIn();
+    });
 
-    $('.backtotop').on('click', function() {
+    $('.backtotop').on('click', function () {
         $('html, body').animate({
             scrollTop: 0
         }, 1000);
     });
-    
+
     eqHeight({
         source: '#homepage-quotes img',
         target: '.quotes-text'
+    });
+
+    eqHeight({
+        source: '.about-box-content',
+        target: '.about-box-red',
+        condition: 'oh'
     });
 });
 
@@ -45,19 +59,19 @@ $(window).scroll(function () {
     } else {
         $('.backtotop').hide();
     }*/
-    
+
     if (headscroll > conthead_height) {
         $("#myNavbar").addClass("fix-navbar");
         $("#myNavbar").addClass("scrollFixed");
         $("#switch-cont").addClass("container-fluid").removeClass("container");
-        $(".fix-logo-top").css("top","0");
+        $(".fix-logo-top").css("top", "0");
     } else {
         $("#myNavbar").removeClass("fix-navbar");
         $("#myNavbar").removeClass("scrollFixed");
         $("#switch-cont").addClass("container").removeClass("container-fluid");
-        $(".fix-logo-top").css("top","-100px");
+        $(".fix-logo-top").css("top", "-100px");
     }
-    
+
     goToTop('.backtotop');
 });
 
@@ -67,6 +81,11 @@ $(window).resize(function () {
         source: '#homepage-quotes img',
         target: '.quotes-text'
     });
+    eqHeight({
+        source: '.about-box-content',
+        target: '.about-box-red',
+        condition: 'oh'
+    });
 });
 
 
@@ -75,51 +94,51 @@ $(window).resize(function () {
 
 // Start Add/remove class on scroll
 var fixScrollNav = function (options) {
-    // Target declaration
-    var target = options.target;
+        // Target declaration
+        var target = options.target;
 
-    // offset and offsetHeight declaration
-    var offset = options.offset;
-    var offsetHeight = 0;
-    if (isNaN(offset)) {
-        offsetHeight = $(offset).outerHeight();
-    } else {
-        offsetHeight = offset;
-    }
+        // offset and offsetHeight declaration
+        var offset = options.offset;
+        var offsetHeight = 0;
+        if (isNaN(offset)) {
+            offsetHeight = $(offset).outerHeight();
+        } else {
+            offsetHeight = offset;
+        }
 
-    if ($(window).scrollTop() > offsetHeight) {
-        $(target).addClass("scrollFixed");
-    } else {
-        $(target).removeClass("scrollFixed");
+        if ($(window).scrollTop() > offsetHeight) {
+            $(target).addClass("scrollFixed");
+        } else {
+            $(target).removeClass("scrollFixed");
+        }
     }
-}
-// End Add/remove class on scroll
+    // End Add/remove class on scroll
 
 /* Start of GOTOTOP function */
-var goToTop = function(target) {
-    if (($(window).scrollTop() > 100)) {
-        $(target).addClass('active');
-    } else {
-        $(target).removeClass('active');
+var goToTop = function (target) {
+        if (($(window).scrollTop() > 100)) {
+            $(target).addClass('active');
+        } else {
+            $(target).removeClass('active');
+        }
     }
-}
-/* End of GOTOTOP function */
+    /* End of GOTOTOP function */
 
 
 // Equal height function
-var eqHeight = function(options){
+var eqHeight = function (options) {
     var targetH,
         source = $(options.source),
         target = $(options.target),
         condition = options.condition;
-    
-    if(condition == 'oh'){
+
+    if (condition == 'oh') {
         targetH = source.outerHeight();
-    }else if(condition == 'ih'){
+    } else if (condition == 'ih') {
         targetH = source.innerHeight();
-    }else if(condition == undefined){
+    } else if (condition == undefined) {
         targetH = source.height();
     }
-    
-    target.css('height',targetH);
+
+    target.css('height', targetH);
 }
