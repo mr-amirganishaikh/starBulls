@@ -15,6 +15,47 @@ body {
     font-size: 1rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-primary;
+}
+
+.btn-starbulls {
+    position: relative;
+    background: transparent;
+    box-shadow: 0px 0 0 0;
+    border-radius: 0;
+    padding: 8px 16px;
+}
+
+.btn-starbulls-black {
+    @extend .btn-starbulls;
+    border: 1px solid #666;
+    color: #333;
+    i {
+        position: absolute;
+        right: -10px;
+        top: 10px;
+        font-size: 16px;
+    }
+}
+
+.btn-starbulls-white {
+    @extend .btn-starbulls;
+    border: 1px solid #fff;
+    color: #eee;
+    i {
+        position: absolute;
+        right: -10px;
+        top: 10px;
+        font-size: 16px;
+    }
+}
+
 
 /*section {
     padding: 30px 0 50px;
@@ -251,7 +292,8 @@ body {
         bottom: -50px;
     }
 }
-.vert-cent{
+
+.vert-cent {
     display: table-cell;
     vertical-align: middle;
 }

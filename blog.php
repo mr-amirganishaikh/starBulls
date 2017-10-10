@@ -16,7 +16,17 @@
         <?php include '_partial/header.php' ?>
     </header>
     <div class="clearfix"></div>
-
+    <div class="page-banner">
+        <img src="img/page-banners/blogs.jpg" class="img-responsive">
+        <div class="full-black-overlay">
+            <div class="page-name text-center">
+                <h1 class="text-uppercase"><strong>blogs</strong> </h1></div>
+        </div>
+        <div class="page-banner-logo">
+            <img src="img/starbullslogo.png" class="img-responsive">
+        </div>
+    </div>
+    <div class="clearfix"></div>
     <main>
 
 

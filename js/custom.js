@@ -8,6 +8,14 @@ $(document).ready(function () {
         $(".testimonials").hide();
         $(gettestno).fadeIn(1000);
     });
+    
+    $(".service-category").click(function(){
+        $(".service-category").removeClass("category-active");
+        $(this).addClass("category-active");
+        var get_cat = $(this).attr("set-cat");
+        $(".service-box-outer").hide();
+        $(get_cat).fadeIn();
+    });
 
     $('.backtotop').on('click', function () {
         $('html, body').animate({
