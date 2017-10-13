@@ -682,18 +682,52 @@ footer {
 }
 
 //-------------------------------------------------------------contact css-------------------------------------------------------------
-
-.address-box{
-    .table{
-        tbody{
-            tr{
-                td:nth-child(1){
+.address-box {
+    .table {
+        tbody {
+            tr {
+                td:nth-child(1) {
                     color: $color-main;
                 }
-                td{
+                td {
                     border: 0;
                 }
             }
         }
     }
+}
+
+.contact-form-box {
+    .sb-form-input {
+        @extend .relative-box;
+        p {
+            position: absolute;
+            top: calc(100% - 35px);
+            left: 10px;
+            color: #999;
+            transition: all 0.5s;
+        }
+        .form-active {
+            top: 0px;
+            color: #e51e3b;
+            font-size: 10px !important;
+            font-weight: bold;
+        }
+        .contact-field {
+            @extend .relative-box;
+            border: 0;
+            border-bottom: 1px solid #bbb;
+            padding: 15px 10px 5px;
+            display: block;
+            margin-bottom: 10px;
+            background: transparent;
+            &:focus{
+                outline: 0;
+            }
+        }
+    }
+}
+
+.p-b-60 {
+    padding-bottom: 60px!important;
 }

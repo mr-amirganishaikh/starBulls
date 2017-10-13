@@ -30,17 +30,11 @@
     <div class="clearfix"></div>
 
     <main>
-        <div class="container p-tb-md">
+        <div class="container p-b-60">
             <div class="row">
                 <div class="col-xs-12 col-sm-6">
                     <div class="address-box">
-                        <h2>Get in Touch</h2>
-<!--
-                        <p><i class="fa fa-phone"></i>000-1101-222-333</p>
-                        <p><i class="fa fa-envelope"></i>info@starbulls.com</p>
-                        <p><i class="fa fa-home"></i>6 / 20, Air-Condition Market Building, Tardeo Road, Tardeo,Mumbai - 400 034.</p>
--->
-                        
+                        <h2 class="m-t-none">Get in Touch</h2>
                         <table class="table">
                             <tr>
                                 <td><i class="fa fa-phone"></i></td>
@@ -52,12 +46,34 @@
                             </tr>
                             <tr>
                                 <td><i class="fa fa-home"></i></td>
-                                <td>6 / 20, Air-Condition Market Building, Tardeo Road, Tardeo,Mumbai - 400 034.</td>
+                                <td>6 / 20, Air-Condition Market Building, Tardeo Road, Tardeo, Mumbai - 400 034.</td>
                             </tr>
                         </table>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6"></div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="contact-form-box">
+                        <form>
+                            <div class="sb-form-input">
+                                <p>Name</p>
+                                <input class="contact-field" type="text" placeholder="" name="name" required>
+                            </div>
+                            <div class="sb-form-input">
+                                <p>E-mail</p>
+                                <input class="contact-field" type="email" placeholder="" name="email" required>
+                            </div>
+                            <div class="sb-form-input">
+                                <p>Phone</p>
+                                <input class="contact-field" type="text" placeholder="" name="phone" required>
+                            </div>
+                            <div class="sb-form-input">
+                                <p>Query</p>
+                                <textarea rows="3" class="contact-field" type="text" placeholder="" name="query" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-starbulls-default">Send</button>
+                        </form>
+                    </div>
+                </div>
 
             </div>
         </div>
