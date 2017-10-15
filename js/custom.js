@@ -8,8 +8,8 @@ $(document).ready(function () {
         $(".testimonials").hide();
         $(gettestno).fadeIn(1000);
     });
-    
-    $(".service-category").click(function(){
+
+    $(".service-category").click(function () {
         $(".service-category").removeClass("category-active");
         $(this).addClass("category-active");
         var get_cat = $(this).attr("set-cat");
@@ -33,27 +33,28 @@ $(document).ready(function () {
         target: '.about-box-red',
         condition: 'oh'
     });
-    
-//    $(".sb-form-input").click(function(){
-//        $(".sb-form-input p").removeClass("form-active");
-//        $(this).find("p").addClass("form-active");
-//        $(".contact-field").css("border-bottom","1px solid #bbb");
-//        $(this).find(".contact-field").css("border-bottom","1px solid #e51e3b");
-//    });
-    $(".contact-field").focusin(function(){
-//        $(".sb-form-input p").removeClass("form-active");
+
+    //    $(".sb-form-input").click(function(){
+    //        $(".sb-form-input p").removeClass("form-active");
+    //        $(this).find("p").addClass("form-active");
+    //        $(".contact-field").css("border-bottom","1px solid #bbb");
+    //        $(this).find(".contact-field").css("border-bottom","1px solid #e51e3b");
+    //    });
+    $(".contact-field").focusin(function () {
         $(this).parentsUntil("form").find("p").addClass("form-active");
-        $(".contact-field").css("border-bottom","1px solid #bbb");
-        $(this).css("border-bottom","1px solid #e51e3b");
+        $(".contact-field").css("border-bottom", "1px solid #bbb");
+        $(this).css("border-bottom", "1px solid #e51e3b");
     });
-    $(".contact-field").focusout(function(){
-        var checkval = $(this).val();
-        if(checkval != ""){
-            $(this).parentsUntil("form").find("p").css("color","#999");
-        }else{
-            $(".sb-form-input p").removeClass("form-active");
-            $(".contact-field").css("border-bottom","1px solid #bbb");
-        }
+    $(".contact-field").focusout(function () {
+        $(".contact-field").each(function () {
+            var checkval = $(this).val();
+            if (checkval != "") {
+                $(this).parentsUntil("form").find("p").css("color", "#999");
+            } else {
+                $(this).parentsUntil("form").find("p").removeClass("form-active");
+                $(".contact-field").css("border-bottom", "1px solid #bbb");
+            }
+        });
     });
 });
 
