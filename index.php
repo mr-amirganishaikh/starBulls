@@ -40,7 +40,7 @@
                 <img src="img/sliders/2.jpg" alt="" title="Starbull Security">
             </div>
             <div class="item">
-                <img src="img/sliders/3.jpg" alt="" title="Starbull Security">
+                <img src="img/sliders/3.JPG" alt="" title="Starbull Security">
             </div>
         </div>
 
