@@ -767,7 +767,7 @@ footer {
             left: 20px;
             display: block;
             top: 50px;
-            word-spacing: 100vw;
+            width: 60%;
             text-transform: uppercase;
             font-size: 0.85rem;
             font-weight: 700;

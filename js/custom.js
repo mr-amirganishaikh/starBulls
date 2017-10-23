@@ -102,7 +102,8 @@ $(window).scroll(function () {
 $(window).resize(function () {
     eqHeight({
         source: '#homepage-quotes img',
-        target: '.quotes-text'
+        target: '.quotes-text',
+        condition: 'oh'
     });
     eqHeight({
         source: '.about-box-content',
