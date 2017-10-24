@@ -472,7 +472,9 @@ body {
     -o-transition: all 0.5s;
     transition: all 0.5s; }
 
-.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
   background-color: transparent;
   border-color: transparent; }
 

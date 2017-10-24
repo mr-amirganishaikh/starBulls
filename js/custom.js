@@ -56,6 +56,12 @@ $(document).ready(function () {
             }
         });
     });
+    $(".dropdown").mouseover(function(){
+        $(this).children(".dropdown-menu").show();
+    });
+    $(".dropdown").mouseout(function(){
+        $(".dropdown-menu").hide();
+    });
 });
 
 /* Call functions on window load */

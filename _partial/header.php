@@ -25,7 +25,7 @@
                     <li><a href="about.php">About</a></li>
 <!--                    <li><a href="services.php">Services</a></li>-->
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="services.php">Services<span class="caret"></span></a>
+                        <a class="dropdown-toggle" href="services.php">Services<span class="caret"></span></a>
                         <ul class="dropdown-menu" style="background:#111">
                             <li><a href="javascript:void()">Industrial Security</a></li>
                             <li><a href="javascript:void()">Residential Security</a></li>
