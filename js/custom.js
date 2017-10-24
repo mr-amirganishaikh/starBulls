@@ -25,7 +25,8 @@ $(document).ready(function () {
 
     eqHeight({
         source: '#homepage-quotes img',
-        target: '.quotes-text'
+        target: '.quotes-text',
+        condition: 'oh'
     });
 
     eqHeight({
@@ -56,13 +57,92 @@ $(document).ready(function () {
             }
         });
     });
-    $(".dropdown").mouseover(function(){
+
+    //menu-dropdown on hover
+    $(".dropdown").mouseover(function () {
         $(this).children(".dropdown-menu").show();
     });
-    $(".dropdown").mouseout(function(){
+    $(".dropdown").mouseout(function () {
         $(".dropdown-menu").hide();
     });
+
+   
 });
+
+
+//effect left
+
+$(document).ready(function () {
+    var $animation_elements = $('.effect-left');
+    var $window = $(window);
+
+    function check_if_in_view() {
+        var window_height = $window.height();
+        var window_top_position = $window.scrollTop();
+        var window_bottom_position = (window_top_position + window_height);
+        var effectdelay = 0;
+        $.each($animation_elements, function () {
+            var $element = $(this);
+            effectdelay = $element.attr("effect-delay");
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
+
+            //check to see if this current container is within viewport
+            if ((element_bottom_position >= window_top_position) &&
+                (element_top_position <= window_bottom_position - 100)) {
+                window.setTimeout(function () {
+                    $element.addClass('in-view');
+                }, effectdelay);
+            } else {
+                $element.removeClass('in-view');
+            }
+        });
+    }
+
+    $window.on('scroll resize', check_if_in_view);
+    $window.trigger('scroll');
+});
+
+//effect right
+
+$(document).ready(function () {
+    var $animation_elements = $('.effect-right');
+    var $window = $(window);
+
+    function check_if_in_view() {
+        var window_height = $window.height();
+        var window_top_position = $window.scrollTop();
+        var window_bottom_position = (window_top_position + window_height);
+        var effectdelay = 0;
+        $.each($animation_elements, function () {
+            var $element = $(this);
+            effectdelay = $element.attr("effect-delay");
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
+
+            //check to see if this current container is within viewport
+            if ((element_bottom_position >= window_top_position) &&
+                (element_top_position <= window_bottom_position - 100)) {
+                window.setTimeout(function () {
+                    $element.addClass('in-view');
+                }, effectdelay);
+
+            } else {
+                $element.removeClass('in-view');
+            }
+        });
+    }
+
+    $window.on('scroll resize', check_if_in_view);
+    $window.trigger('scroll');
+});
+
+
+
+
+
 
 /* Call functions on window load */
 $(window).load(function () {

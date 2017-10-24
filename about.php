@@ -32,8 +32,8 @@
     <main class="m-b-xxl" style="position:relative">
         <div class="about-vert-divider"></div>
         <div class="container">
-            <div class="row">
-                <div class="about-box">
+            <div class="row" style="overflow:hidden">
+                <div class="about-box effect-right">
                     <div class="col-xs-offset-3 col-xs-6 about-box-head">
                         <h3 class="text-uppercase text-center">welcome to Starbulls</h3>
                     </div>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-box m-t-xxl">
+                <div class="about-box m-t-xxl effect-left">
                     <div class="col-xs-offset-3 col-xs-6 about-box-head">
                         <h3 class="text-uppercase text-center">company profile</h3>
                     </div>
