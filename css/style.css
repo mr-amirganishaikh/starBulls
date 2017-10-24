@@ -472,6 +472,10 @@ body {
     -o-transition: all 0.5s;
     transition: all 0.5s; }
 
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+  background-color: transparent;
+  border-color: transparent; }
+
 .nav li a {
   padding: 8px 15px;
   margin: 3px;

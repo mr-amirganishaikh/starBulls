@@ -83,6 +83,11 @@ body {
     }
 }
 
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
 .nav {
     li {
         a {
