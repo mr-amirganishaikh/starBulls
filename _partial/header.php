@@ -23,7 +23,17 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="services.php">Services</a></li>
+<!--                    <li><a href="services.php">Services</a></li>-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="services.php">Services<span class="caret"></span></a>
+                        <ul class="dropdown-menu" style="background:#111">
+                            <li><a href="javascript:void()">Industrial Security</a></li>
+                            <li><a href="javascript:void()">Residential Security</a></li>
+                            <li><a href="javascript:void()">Event Security Managements</a></li>
+                            <li><a href="javascript:void()">Personal Bodyguard</a></li>
+                            <li><a href="javascript:void()">Private & Business Investigation Services</a></li>
+                        </ul>
+                    </li>
                     <li><a href="blog.php">Blog</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>

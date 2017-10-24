@@ -53,8 +53,8 @@
                 <div class="title">
                     <h2>Events</h2>
                 </div>
-                <div class="events-section">
-                    <div class="col-md-7 wow fadeIn" data-wow-delay="0.3s">
+                <div class="events-section" style="overflow:hidden">
+                    <div class="col-md-7 wow fadeIn effect-right" data-wow-delay="0.3s">
                         <div class="events-box dark" style="background-image: url(img/1.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Security Consulting</h2>
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="col-md-5 wow fadeIn effect-left" data-wow-delay="0.6s">
                         <div class="events-box light" style="background-image: url(img/temp.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Close Protection</h2>
@@ -72,7 +72,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 wow fadeIn" data-wow-delay="0.9s">
+                    <div class="col-md-5 wow fadeIn effect-right" data-wow-delay="0.9s">
                         <div class="events-box light" style="background-image: url(img/temp.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Investigations</h2>
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7 wow fadeIn" data-wow-delay="1.2s">
+                    <div class="col-md-7 wow fadeIn effect-left" data-wow-delay="1.2s">
                         <div class="events-box dark" style="background-image: url(img/1.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Security Systems</h2>
@@ -114,38 +114,38 @@
                         <a href="javascript:void()" class="btn btn-link">More Details</a>
                     </div>
                     <div class="col-xs-12 col-md-6 services-grid">
-                        <ul class="list-unstyled list-grid">
-                            <li>
+                        <ul class="list-unstyled list-grid" style="overflow:hidden">
+                            <li class="effect-right">
                                 <a href="javascript:void()" class="service-link">
                                     <span class="service-name">Industrial Security</span>
                                     <i class="fa fa-camera service-icon"></i>
                                 </a>
                             </li>
-                            <li>
+                            <li class="effect-left">
                                 <a href="javascript:void()" class="service-link">
                                     <span class="service-name">Residential Security</span>
                                     <i class="material-icons service-icon">notifications_active</i>
                                 </a>
                             </li>
-                            <li>
+                            <li class="effect-right">
                                 <a href="javascript:void()" class="service-link">
                                     <span class="service-name">Event Security Managements</span>
                                     <i class="fa fa-free-code-camp service-icon"></i>
                                 </a>
                             </li>
-                            <li>
+                            <li class="effect-left">
                                 <a href="javascript:void()" class="service-link">
                                     <span class="service-name">Personal Bodyguard</span>
                                     <i class="material-icons service-icon">fingerprint</i>
                                 </a>
                             </li>
-                            <li>
+                            <li class="effect-right">
                                 <a href="javascript:void()" class="service-link">
                                     <span class="service-name">Private & Business Investigation Services</span>
                                     <i class="material-icons service-icon">security</i>
                                 </a>
                             </li>
-                            <li>
+                            <li class="effect-left">
                                 <a href="javascript:void()" class="service-link">
                                     <span class="service-name">Rapid Response</span>
                                     <i class="fa fa-taxi service-icon"></i>
@@ -159,11 +159,11 @@
         <div class="clearfix"></div>
 
         <section id="homepage-quotes">
-            <div class="container">
-                <div class="col-xs-12 col-sm-3">
+            <div class="container" style="overflow:hidden">
+                <div class="col-xs-12 col-sm-3 effect-right">
                     <img src="img/2.jpg" class="img-responsive">
                 </div>
-                <div class="col-xs-12 col-sm-9">
+                <div class="col-xs-12 col-sm-9 effect-left">
                     <div class="quotes-text">
                         <h3>&ldquo; You can judge the success of man by his bodyguards &rdquo;</h3>
                     </div>

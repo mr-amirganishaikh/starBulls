@@ -31,8 +31,8 @@
 
     <main>
         <div class="container p-b-60">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6">
+            <div class="row" style="overflow:hidden">
+                <div class="col-xs-12 col-sm-6 effect-right">
                     <div class="address-box">
                         <h2 class="m-t-none">Get in Touch</h2>
                         <table class="table">
@@ -51,7 +51,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-xs-12 col-sm-6 effect-left">
                     <div class="contact-form-box">
                         <form>
                             <div class="sb-form-input">
