@@ -19,7 +19,9 @@
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-<!--            <li data-target="#myCarousel" data-slide-to="1"></li>-->
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -29,13 +31,17 @@
                     <img src="img/starbullslogo.png" width="150px">
                     <h1>Premium security services<br>Trusted by millions</h1>
                 </div>
-                <img src="img/1.jpg" alt="" title="Starbull Security">
+                <img src="img/sliders/main.jpg" alt="" title="Starbull Security">
             </div>
-<!--
             <div class="item">
-                <img src="img/4.jpg" alt="" title="Starbull Security">
+                <img src="img/sliders/1.jpg" alt="" title="Starbull Security">
             </div>
--->
+            <div class="item">
+                <img src="img/sliders/2.jpg" alt="" title="Starbull Security">
+            </div>
+            <div class="item">
+                <img src="img/sliders/3.JPG" alt="" title="Starbull Security">
+            </div>
         </div>
 
     </div>
@@ -111,31 +117,31 @@
                         <ul class="list-unstyled list-grid">
                             <li>
                                 <a href="javascript:void()" class="service-link">
-                                    <span class="service-name">CCTV SYSTEMS</span>
+                                    <span class="service-name">Industrial Security</span>
                                     <i class="fa fa-camera service-icon"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void()" class="service-link">
-                                    <span class="service-name">Intruder Alarms</span>
+                                    <span class="service-name">Residential Security</span>
                                     <i class="material-icons service-icon">notifications_active</i>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void()" class="service-link">
-                                    <span class="service-name">Fire Alarm</span>
+                                    <span class="service-name">Event Security Managements</span>
                                     <i class="fa fa-free-code-camp service-icon"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void()" class="service-link">
-                                    <span class="service-name">Access Control</span>
+                                    <span class="service-name">Personal Bodyguard</span>
                                     <i class="material-icons service-icon">fingerprint</i>
                                 </a>
                             </li>
                             <li>
                                 <a href="javascript:void()" class="service-link">
-                                    <span class="service-name">Physical Protection</span>
+                                    <span class="service-name">Private & Business Investigation Services</span>
                                     <i class="material-icons service-icon">security</i>
                                 </a>
                             </li>

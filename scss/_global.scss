@@ -56,6 +56,18 @@ h6 {
     }
 }
 
+.btn-starbulls-default {
+    padding: 6px 25px;
+    background: $color-main;
+    color: white;
+    border-radius: 0;
+    border: 1px solid $color-main;
+    &:hover {
+        background: white;
+        color: $color-main;
+    }
+}
+
 
 /*section {
     padding: 30px 0 50px;

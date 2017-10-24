@@ -35,10 +35,10 @@
             <div class="row">
                 <div class="about-box">
                     <div class="col-xs-offset-3 col-xs-6 about-box-head">
-                        <h3 class="text-uppercase text-center">starbulls security</h3>
+                        <h3 class="text-uppercase text-center">welcome to Starbulls</h3>
                     </div>
                     <div class="col-xs-9 about-box-content p-tb-lg">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        <p>Incepted in the year 2012, Starbulls Facility Management Services (India) Pvt. Ltd. is one of the eminent companies highly affianced in service providing a supreme quality range of Security Services, Manpower Outsourcing Services, Fire and Safety Systems, Emergency Response Team Services, A crew of trained personnel offers these services as per the requirement and demands of our client. By providing most apt services to patrons, we are able to preserve a constant relationship with them. Our employees are master in their arena and have massive experience of industry.</p>
                     </div>
                     <div class="col-xs-3 text-center about-box-red">
                         <div class="vert-cent">
@@ -48,10 +48,11 @@
                 </div>
                 <div class="about-box m-t-xxl">
                     <div class="col-xs-offset-3 col-xs-6 about-box-head">
-                        <h3 class="text-uppercase text-center">starbulls security</h3>
+                        <h3 class="text-uppercase text-center">company profile</h3>
                     </div>
                     <div class="col-xs-9 about-box-content p-tb-lg">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        <p>A highly experienced and responsive firm specializing in Industrial and Protective Security in the Industrial Area of Maharashtra & Greater Mumbai .</p><br>
+                        <p>Starbulls Facility Security and Intelligence Service was established in2012 with headquarters in Mumai. Today, We have a large number of satisfied customers who trust their assets and interests with us. We have a proven track record in our field and are one of the most reliable Security Solutions Provider in the state. </p>
                     </div>
                     <div class="col-xs-3 text-center about-box-red">
                         <div class="vert-cent">

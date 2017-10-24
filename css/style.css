@@ -185,6 +185,16 @@ h6 {
     top: 10px;
     font-size: 16px; }
 
+.btn-starbulls-default {
+  padding: 6px 25px;
+  background: #e51e3b;
+  color: white;
+  border-radius: 0;
+  border: 1px solid #e51e3b; }
+  .btn-starbulls-default:hover {
+    background: white;
+    color: #e51e3b; }
+
 /*section {
     padding: 30px 0 50px;
 }*/
@@ -283,12 +293,12 @@ h6 {
   -moz-animation-delay: 5.5s;
   animation-delay: 5.5s; }
 
-.relative-box, .page-banner, footer .footer .table tbody tr td form, #homepage-events, #homepage-events .events-section, #homepage-events .events-section .events-box, #homepage-events .events-section .events-box .box-details, #homepage-quotes, #homepage-statistics, #homepage-statistics .counter-box, #homepage-services, #homepage-services .services-section, #homepage-feedback, .service-area .service-box-outer .service-box-inner .service-img-all .service-img {
+.relative-box, .page-banner, footer .footer .table tbody tr td form, #homepage-events, #homepage-events .events-section, #homepage-events .events-section .events-box, #homepage-events .events-section .events-box .box-details, #homepage-quotes, #homepage-statistics, #homepage-statistics .counter-box, #homepage-services, #homepage-services .services-section, #homepage-feedback, .service-area .service-box-outer .service-box-inner .service-img-all .service-img, .contact-form-box .sb-form-input, .contact-form-box .sb-form-input .contact-field {
   position: relative;
   min-height: 1px;
   width: 100%;
   float: left; }
-  .relative-box:after, .page-banner:after, footer .footer .table tbody tr td form:after, #homepage-events:after, #homepage-events .events-section:after, #homepage-events .events-section .events-box:after, #homepage-events .events-section .events-box .box-details:after, #homepage-quotes:after, #homepage-statistics:after, #homepage-statistics .counter-box:after, #homepage-services:after, #homepage-services .services-section:after, #homepage-feedback:after, .service-area .service-box-outer .service-box-inner .service-img-all .service-img:after {
+  .relative-box:after, .page-banner:after, footer .footer .table tbody tr td form:after, #homepage-events:after, #homepage-events .events-section:after, #homepage-events .events-section .events-box:after, #homepage-events .events-section .events-box .box-details:after, #homepage-quotes:after, #homepage-statistics:after, #homepage-statistics .counter-box:after, #homepage-services:after, #homepage-services .services-section:after, #homepage-feedback:after, .service-area .service-box-outer .service-box-inner .service-img-all .service-img:after, .contact-form-box .sb-form-input:after, .contact-form-box .sb-form-input .contact-field:after {
     content: '';
     clear: both; }
 
@@ -757,7 +767,7 @@ footer {
             left: 20px;
             display: block;
             top: 50px;
-            word-spacing: 100vw;
+            width: 60%;
             text-transform: uppercase;
             font-size: 0.85rem;
             font-weight: 700;
@@ -852,18 +862,61 @@ footer {
   cursor: pointer; }
 .service-area .service-box-outer {
   display: none; }
-  .service-area .service-box-outer .service-box-inner:nth-child(2n) .service-img-all {
-    float: right; }
-  .service-area .service-box-outer .service-box-inner .service-img-all .service-img:after {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    border: 3px solid #e51e3b; }
-  .service-area .service-box-outer .service-box-inner .service-content p {
-    color: #666; }
+  .service-area .service-box-outer .service-box-inner {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .service-area .service-box-outer .service-box-inner:nth-child(2n) {
+      background: #111; }
+      .service-area .service-box-outer .service-box-inner:nth-child(2n) .service-img-all {
+        float: right; }
+      .service-area .service-box-outer .service-box-inner:nth-child(2n) .service-content {
+        color: white; }
+        .service-area .service-box-outer .service-box-inner:nth-child(2n) .service-content p {
+          color: #ccc; }
+        .service-area .service-box-outer .service-box-inner:nth-child(2n) .service-content .btn-starbulls-black {
+          border: 1px solid #ccc;
+          color: #ddd; }
+    .service-area .service-box-outer .service-box-inner .service-img-all .service-img {
+      z-index: 1; }
+      .service-area .service-box-outer .service-box-inner .service-img-all .service-img:after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border: 3px solid #e51e3b; }
+    .service-area .service-box-outer .service-box-inner .service-content p {
+      color: #666; }
+
+.address-box .table tbody tr td:nth-child(1) {
+  color: #e51e3b; }
+.address-box .table tbody tr td {
+  border: 0; }
+
+.contact-form-box .sb-form-input p {
+  position: absolute;
+  top: calc(100% - 35px);
+  left: 10px;
+  color: #999;
+  transition: all 0.5s; }
+.contact-form-box .sb-form-input .form-active {
+  top: 0px;
+  color: #e51e3b;
+  font-size: 10px !important;
+  font-weight: bold; }
+.contact-form-box .sb-form-input .contact-field {
+  border: 0;
+  border-bottom: 1px solid #bbb;
+  padding: 15px 10px 5px;
+  display: block;
+  margin-bottom: 10px;
+  background: transparent; }
+  .contact-form-box .sb-form-input .contact-field:focus {
+    outline: 0; }
+
+.p-b-60 {
+  padding-bottom: 60px !important; }
 
 /*# sourceMappingURL=style.css.map */
