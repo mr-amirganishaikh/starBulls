@@ -27,11 +27,11 @@
                     <li class="dropdown">
                         <a class="dropdown-toggle" href="services.php">Services<span class="caret"></span></a>
                         <ul class="dropdown-menu" style="background:#111">
-                            <li><a href="javascript:void()">Industrial Security</a></li>
-                            <li><a href="javascript:void()">Residential Security</a></li>
-                            <li><a href="javascript:void()">Event Security Managements</a></li>
-                            <li><a href="javascript:void()">Personal Bodyguard</a></li>
-                            <li><a href="javascript:void()">Private & Business Investigation Services</a></li>
+                            <li><a href="industrial-security.php">Industrial Security</a></li>
+                            <li><a href="residential-security.php">Residential Security</a></li>
+                            <li><a href="event-security-management.php">Event Security Managements</a></li>
+                            <li><a href="personal-bodyguard.php">Personal Bodyguard</a></li>
+                            <li><a href="private-business-investigation.php">Private & Business Investigation Services</a></li>
                         </ul>
                     </li>
                     <li><a href="blog.php">Blog</a></li>

@@ -16,12 +16,12 @@
         <?php include '_partial/header.php' ?>
     </header>
     <div class="clearfix"></div>
-    
+
     <main>
-    
-    
+
+
     </main>
-    
+
     <div class="clearfix"></div>
     <footer>
         <!-- Footer section included -->
