@@ -38,7 +38,7 @@
                         <h3 class="text-uppercase text-center">welcome to Starbulls</h3>
                     </div>
                     <div class="col-xs-9 about-box-content p-tb-lg">
-                        <p>Incepted in the year 2012, Starbulls Facility Management Services (India) Pvt. Ltd. is one of the eminent companies highly affianced in service providing a supreme quality range of Security Services, Manpower Outsourcing Services, Fire and Safety Systems, Emergency Response Team Services, A crew of trained personnel offers these services as per the requirement and demands of our client. By providing most apt services to patrons, we are able to preserve a constant relationship with them. Our employees are master in their arena and have massive experience of industry.</p>
+                        <p>Starbulls Facility Management Services (India) Pvt. Ltd. is a highly responsive and experienced firm specializing in Industrial and Protective Security in the Industrial Area of Maharashtra & Greater Mumbai. Started in the year 2012, we are known for providing exceptional service, professionalism, and integrity. Our continuous efforts on client needs have made us become the trusted partner in this part of the world. Our focus on protection, safety, and confidentiality as we cater directly to you and your needs. As you browse through our site take a look at all of our services that make us your one stop for all of your security needs.</p>
                     </div>
                     <div class="col-xs-3 text-center about-box-red">
                         <div class="vert-cent">
@@ -51,8 +51,8 @@
                         <h3 class="text-uppercase text-center">company profile</h3>
                     </div>
                     <div class="col-xs-9 about-box-content p-tb-lg">
-                        <p>A highly experienced and responsive firm specializing in Industrial and Protective Security in the Industrial Area of Maharashtra & Greater Mumbai .</p><br>
-                        <p>Starbulls Facility Security and Intelligence Service was established in2012 with headquarters in Mumai. Today, We have a large number of satisfied customers who trust their assets and interests with us. We have a proven track record in our field and are one of the most reliable Security Solutions Provider in the state. </p>
+                        <p>Since the past 5 years we have been providing a range of Security Services, Manpower Outsourcing Services, Fire and Safety Systems, Emergency Response Team Services, crew of trained personnel offers these services as per the requirement and demands of our client.By providing most apt services to clients, we are able to maintain a constant relationship with them.</p>
+                        <p> Our teams are best at what they do and have a collective experience of the industry. We have just one mission to keep you and what you love safe and secured.</p>
                     </div>
                     <div class="col-xs-3 text-center about-box-red">
                         <div class="vert-cent">
