@@ -170,13 +170,13 @@ $(window).scroll(function () {
     }*/
 
     if (headscroll > conthead_height) {
-        $("#myNavbar").addClass("fix-navbar");
-        $("#myNavbar").addClass("scrollFixed");
+        $(".navbar").addClass("fix-navbar");
+        $(".navbar").addClass("scrollFixed");
         $("#switch-cont").addClass("container-fluid").removeClass("container");
         $(".fix-logo-top").css("top", "0");
     } else {
-        $("#myNavbar").removeClass("fix-navbar");
-        $("#myNavbar").removeClass("scrollFixed");
+        $(".navbar").removeClass("fix-navbar");
+        $(".navbar").removeClass("scrollFixed");
         $("#switch-cont").addClass("container").removeClass("container-fluid");
         $(".fix-logo-top").css("top", "-100px");
     }
