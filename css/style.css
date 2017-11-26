@@ -461,6 +461,9 @@ body {
     display: inline-block;
     margin-left: 25px;
     color: #ffffff; }
+  @media (max-width: 479px) {
+    .navbar .contact-header {
+      display: none; } }
   .navbar .fix-logo-top {
     position: fixed;
     width: 70px;
@@ -471,6 +474,12 @@ body {
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s; }
+  .navbar #switch-cont {
+    transition: all 0.3s linear; }
+  .navbar .navbar-header .navbar-toggle {
+    background: #3f3f3f; }
+    .navbar .navbar-header .navbar-toggle span {
+      background: #e51e3b; }
 
 .nav .open > a,
 .nav .open > a:focus,
@@ -491,6 +500,9 @@ body {
     box-shadow: 0 0 1px 1px #ffffff;
     color: #ffffff; }
 
+@media (max-width: 639px) {
+  .head-social li {
+    display: inline-block; } }
 .head-social li a {
   padding: 5px;
   margin: 3px;
@@ -502,6 +514,9 @@ body {
     background-color: transparent;
     box-shadow: 0 0 0 0;
     color: #ffffff; }
+  @media (max-width: 639px) {
+    .head-social li a {
+      padding: 5px 15px; } }
 
 .carousel {
   position: relative;
