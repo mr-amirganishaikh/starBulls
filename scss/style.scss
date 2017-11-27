@@ -644,8 +644,13 @@ footer {
         @extend .about-box-border;
         background: $color-main;
         color: white;
-        border-left: 0;
+        border-left-width: 0;
         display: table;
+        @include sm-down{
+            border-left-width: 2px;
+            border-top-width: 0;
+            max-height: 250px;
+        }
         h1 {
             margin: 0;
         }

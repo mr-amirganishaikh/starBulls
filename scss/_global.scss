@@ -288,6 +288,13 @@ h6 {
 .page-banner {
     @extend .relative-box;
     margin-bottom: 90px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vh;
+    @include xxs-down {
+        margin-bottom: 30px;
+        height: 30vh;
+    }
     .page-name {
         position: absolute;
         top: 50%;
@@ -295,6 +302,9 @@ h6 {
         width: 100%;
         h1 {
             font-size: 3rem;
+            @include xxs-down {
+                font-size: 2rem;
+            }
         }
     }
     .page-banner-logo {
@@ -302,6 +312,9 @@ h6 {
         width: 6%;
         left: 47%;
         bottom: -50px;
+        @include xxs-down {
+            display: none;
+        }
     }
 }
 

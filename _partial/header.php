@@ -34,7 +34,7 @@
                             <li><a href="private-business-investigation.php">Private & Business Investigation Services</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="gallery.php">gallery</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right head-social">

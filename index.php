@@ -54,7 +54,7 @@
                     <h2>Events</h2>
                 </div>
                 <div class="events-section" style="overflow:hidden">
-                    <div class="col-md-7 wow fadeIn effect-right" data-wow-delay="0.3s">
+                    <div class="col-md-7 ">
                         <div class="events-box dark" style="background-image: url(img/1.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Security Consulting</h2>
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 wow fadeIn effect-left" data-wow-delay="0.6s">
+                    <div class="col-md-5 " >
                         <div class="events-box light" style="background-image: url(img/temp.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Close Protection</h2>
@@ -72,7 +72,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 wow fadeIn effect-right" data-wow-delay="0.9s">
+                    <div class="col-md-5 ">
                         <div class="events-box light" style="background-image: url(img/temp.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Investigations</h2>
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7 wow fadeIn effect-left" data-wow-delay="1.2s">
+                    <div class="col-md-7 " >
                         <div class="events-box dark" style="background-image: url(img/1.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Security Systems</h2>
