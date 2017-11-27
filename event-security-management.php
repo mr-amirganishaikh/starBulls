@@ -8,6 +8,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Head section included -->
     <?php include '_partial/head.php' ?>
+        <style>
+            .page-banner {
+                background: url(img/page-banners/about.jpg);
+                background-size: cover;
+            }
+        </style>
 </head>
 
 <body>
@@ -18,10 +24,9 @@
     <div class="clearfix"></div>
 
     <div class="page-banner">
-        <img src="img/page-banners/about.jpg" class="img-responsive">
-        <div class="full-black-overlay">
-            <div class="page-name text-center">
-                <h1 class="text-uppercase"><strong>Event Security Managements</strong> </h1></div>
+        <div class="full-black-overlay"></div>
+        <div class="page-name text-center">
+            <h1 class="text-uppercase"><strong>Event Security Managements</strong> </h1>
         </div>
         <div class="page-banner-logo">
             <img src="img/starbullslogo.png" class="img-responsive">

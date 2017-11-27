@@ -8,6 +8,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Head section included -->
     <?php include '_partial/head.php' ?>
+        <style>
+            .page-banner {
+                background: url(img/page-banners/contact.jpg);
+                background-size: cover;
+            }
+        </style>
 </head>
 
 <body>
@@ -18,10 +24,9 @@
     <div class="clearfix"></div>
 
     <div class="page-banner">
-        <img src="img/page-banners/contact.jpg" class="img-responsive">
-        <div class="full-black-overlay">
-            <div class="page-name text-center">
-                <h1 class="text-uppercase"><strong>contact us</strong> </h1></div>
+        <div class="full-black-overlay"></div>
+        <div class="page-name text-center">
+            <h1 class="text-uppercase"><strong>contact us</strong> </h1>
         </div>
         <div class="page-banner-logo">
             <img src="img/starbullslogo.png" class="img-responsive">
@@ -56,7 +61,7 @@
                         <form>
                             <div class="sb-form-input">
                                 <p>Name</p>
-                                <input class="contact-field" type="text" placeholder="" name="name" required>
+                                <input class="contact-field" type="text" placeholder="" name="name" onkeypress="return keycheckval(event);" required>
                             </div>
                             <div class="sb-form-input">
                                 <p>E-mail</p>
@@ -64,7 +69,7 @@
                             </div>
                             <div class="sb-form-input">
                                 <p>Phone</p>
-                                <input class="contact-field" type="text" placeholder="" name="phone" required>
+                                <input id="mobile" class="contact-field" type="text" placeholder="" name="phone" onkeypress="return isNumber(event);" onchange="return checkmobile();" maxlength="10" required>
                             </div>
                             <div class="sb-form-input">
                                 <p>Query</p>

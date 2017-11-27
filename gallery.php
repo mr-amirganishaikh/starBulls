@@ -2,12 +2,18 @@
 <html lang="en">
 
 <head>
-    <title>Blogs | StarBulls</title>
+    <title>Gallery | StarBulls</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Head section included -->
     <?php include '_partial/head.php' ?>
+        <style>
+            .page-banner {
+                background: url(img/page-banners/blogs.jpg);
+                background-size: cover;
+            }
+        </style>
 </head>
 
 <body>
@@ -17,10 +23,9 @@
     </header>
     <div class="clearfix"></div>
     <div class="page-banner">
-        <img src="img/page-banners/blogs.jpg" class="img-responsive">
-        <div class="full-black-overlay">
-            <div class="page-name text-center">
-                <h1 class="text-uppercase"><strong>blogs</strong> </h1></div>
+        <div class="full-black-overlay"></div>
+        <div class="page-name text-center">
+            <h1 class="text-uppercase"><strong>Gallery</strong> </h1>
         </div>
         <div class="page-banner-logo">
             <img src="img/starbullslogo.png" class="img-responsive">
