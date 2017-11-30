@@ -22,10 +22,16 @@
             <div id="switch-cont" class="container" style="transition:all 0.5s;">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="about.php">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu" style="background:#111">
+                            <li><a href="visionmission.php">Vision & Mission</a></li>
+                            <li><a href="corporate-social-responsibilities.php">Corporate Social Responsibilities</a></li>
+                        </ul>
+                    </li>
 <!--                    <li><a href="services.php">Services</a></li>-->
                     <li class="dropdown">
-                        <a class="dropdown-toggle" href="services.php">Services<span class="caret"></span></a>
+                        <a class="dropdown-toggle" href="services.php">Services <span class="caret"></span></a>
                         <ul class="dropdown-menu" style="background:#111">
                             <li><a href="industrial-security.php">Industrial Security</a></li>
                             <li><a href="residential-security.php">Residential Security</a></li>
