@@ -66,7 +66,11 @@ $(document).ready(function () {
         $(".dropdown-menu").hide();
     });
 
-   
+    
+    //add navbar transparent bg on mobile
+   $(".navbar-toggle").click(function(){
+       $(".navbar").toggleClass("nav-trans-bg");
+   })
 });
 
 

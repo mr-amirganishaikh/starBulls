@@ -215,7 +215,6 @@ h6 {
   border-radius: 12px; }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #ffffff;
   cursor: grab; }
 
 ::-webkit-scrollbar-corner {
@@ -493,6 +492,10 @@ body {
     background: #3f3f3f; }
     .navbar .navbar-header .navbar-toggle span {
       background: #e51e3b; }
+
+@media (max-width: 767px) {
+  .nav-trans-bg {
+    background: rgba(0, 0, 0, 0.9) !important; } }
 
 .nav .open > a,
 .nav .open > a:focus,
