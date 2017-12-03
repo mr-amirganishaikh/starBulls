@@ -292,12 +292,12 @@ h6 {
   -moz-animation-delay: 5.5s;
   animation-delay: 5.5s; }
 
-.relative-box, .page-banner, footer .footer .table tbody tr td form, #homepage-events, #homepage-events .events-section, #homepage-events .events-section .events-box, #homepage-events .events-section .events-box .box-details, #homepage-quotes, #homepage-statistics, #homepage-statistics .counter-box, #homepage-services, #homepage-services .services-section, #homepage-feedback, .service-area .service-box-outer .service-box-inner .service-img-all .service-img, .contact-form-box .sb-form-input, .contact-form-box .sb-form-input .contact-field {
+.relative-box, .page-banner, footer .footer .table tbody tr td form, #homepage-events, #homepage-events .events-section, #homepage-events .events-section .events-box, #homepage-events .events-section .events-box .box-details, #homepage-quotes, #homepage-statistics, #homepage-statistics .counter-box, #homepage-services, #homepage-services .services-section, #homepage-feedback, .service-area .service-box-outer .service-box-inner .service-img-all .service-img, .contact-form-box .sb-form-input, .rt-form .sb-form-input, .contact-form-box .sb-form-input .contact-field, .rt-form .sb-form-input .contact-field {
   position: relative;
   min-height: 1px;
   width: 100%;
   float: left; }
-  .relative-box:after, .page-banner:after, footer .footer .table tbody tr td form:after, #homepage-events:after, #homepage-events .events-section:after, #homepage-events .events-section .events-box:after, #homepage-events .events-section .events-box .box-details:after, #homepage-quotes:after, #homepage-statistics:after, #homepage-statistics .counter-box:after, #homepage-services:after, #homepage-services .services-section:after, #homepage-feedback:after, .service-area .service-box-outer .service-box-inner .service-img-all .service-img:after, .contact-form-box .sb-form-input:after, .contact-form-box .sb-form-input .contact-field:after {
+  .relative-box:after, .page-banner:after, footer .footer .table tbody tr td form:after, #homepage-events:after, #homepage-events .events-section:after, #homepage-events .events-section .events-box:after, #homepage-events .events-section .events-box .box-details:after, #homepage-quotes:after, #homepage-statistics:after, #homepage-statistics .counter-box:after, #homepage-services:after, #homepage-services .services-section:after, #homepage-feedback:after, .service-area .service-box-outer .service-box-inner .service-img-all .service-img:after, .contact-form-box .sb-form-input:after, .rt-form .sb-form-input:after, .contact-form-box .sb-form-input .contact-field:after, .rt-form .sb-form-input .contact-field:after {
     content: '';
     clear: both; }
 
@@ -937,25 +937,25 @@ footer {
 .address-box .table tbody tr td {
   border: 0; }
 
-.contact-form-box .sb-form-input p {
+.contact-form-box .sb-form-input p, .rt-form .sb-form-input p {
   position: absolute;
   top: calc(100% - 35px);
   left: 10px;
   color: #999;
   transition: all 0.5s; }
-.contact-form-box .sb-form-input .form-active {
+.contact-form-box .sb-form-input .form-active, .rt-form .sb-form-input .form-active {
   top: 0px;
   color: #e51e3b;
   font-size: 10px !important;
   font-weight: bold; }
-.contact-form-box .sb-form-input .contact-field {
+.contact-form-box .sb-form-input .contact-field, .rt-form .sb-form-input .contact-field {
   border: 0;
   border-bottom: 1px solid #bbb;
   padding: 15px 10px 5px;
   display: block;
   margin-bottom: 10px;
   background: transparent; }
-  .contact-form-box .sb-form-input .contact-field:focus {
+  .contact-form-box .sb-form-input .contact-field:focus, .rt-form .sb-form-input .contact-field:focus {
     outline: 0; }
 
 .p-b-60 {
