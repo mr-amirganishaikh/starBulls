@@ -780,3 +780,7 @@ footer {
 .p-b-60 {
     padding-bottom: 60px!important;
 }
+
+.rt-form {
+    @extend .contact-form-box;
+}

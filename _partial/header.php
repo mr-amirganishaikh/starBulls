@@ -27,6 +27,7 @@
                         <ul class="dropdown-menu" style="background:#111">
                             <li><a href="visionmission.php">Vision & Mission</a></li>
                             <li><a href="corporate-social-responsibilities.php">Corporate Social Responsibilities</a></li>
+                            <li><a href="recruitment-training.php">Recruitment & Training</a></li>
                         </ul>
                     </li>
 <!--                    <li><a href="services.php">Services</a></li>-->
