@@ -31,8 +31,9 @@
                         </ul>
                     </li>
 <!--                    <li><a href="services.php">Services</a></li>-->
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" href="services.php">Services <span class="caret"></span></a>
+                    <li>
+                        <a href="services.php">Services</a>
+<!--
                         <ul class="dropdown-menu" style="background:#111">
                             <li><a href="industrial-security.php">Industrial Security</a></li>
                             <li><a href="residential-security.php">Residential Security</a></li>
@@ -40,6 +41,7 @@
                             <li><a href="personal-bodyguard.php">Personal Bodyguard</a></li>
                             <li><a href="private-business-investigation.php">Private & Business Investigation Services</a></li>
                         </ul>
+-->
                     </li>
                     <li><a href="gallery.php">gallery</a></li>
                     <li><a href="contact.php">Contact</a></li>
