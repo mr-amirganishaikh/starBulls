@@ -179,7 +179,7 @@
                             <h3>Dog Handler</h3>
                         </div>
                         <div class="sec-ser-short-desc">
-                            <p>We offer the best in class security guards. These are men built for the job.</p>
+                            <p>We provide Dog Squad handlers who are security licensed and certified.</p>
                         </div>
                         <a href="s-dog-handler.php">
                             <button class="btn btn-starbulls-default">Read More</button>
@@ -195,7 +195,7 @@
                             <h3>Fire Marshal Security</h3>
                         </div>
                         <div class="sec-ser-short-desc">
-                            <p>We offer the best in class security guards. These are men built for the job.</p>
+                            <p>Starbulls Security Management Services offer a total Fire & Marshal and Security Capability</p>
                         </div>
                         <a href="s-fire-marshal.php">
                             <button class="btn btn-starbulls-default">Read More</button>
@@ -211,7 +211,7 @@
                             <h3>Car vehicle Escort</h3>
                         </div>
                         <div class="sec-ser-short-desc">
-                            <p>We offer the best in class security guards. These are men built for the job.</p>
+                            <p>We provide pilot car drivers who work in conjunction with the driver</p>
                         </div>
                         <a href="s-carvehicle-escort.php">
                             <button class="btn btn-starbulls-default">Read More</button>
@@ -227,7 +227,7 @@
                             <h3>PSO & CPO Security Guard Service</h3>
                         </div>
                         <div class="sec-ser-short-desc">
-                            <p>We offer the best in class security guards. These are men built for the job.</p>
+                            <p>Starbulls Security provides Close Protection Officers (CPOs),Armed Guards, Bodyguards</p>
                         </div>
                         <a href="s-psocpo-officer.php">
                             <button class="btn btn-starbulls-default">Read More</button>
