@@ -425,9 +425,6 @@ body {
   top: 0;
   z-index: 16; }
 
-.scrollFixed {
-  background: rgba(0, 0, 0, 0.9); }
-
 .fix-navbar {
   position: fixed;
   top: 0;
@@ -464,6 +461,7 @@ body {
 
 .navbar {
   border: 0;
+  border-radius: 0px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -496,6 +494,19 @@ body {
 @media (max-width: 767px) {
   .nav-trans-bg {
     background: rgba(0, 0, 0, 0.9) !important; } }
+
+.scrollFixed {
+  background: white;
+  box-shadow: 0px 5px 30px -18px #333; }
+  .scrollFixed .contact-header span {
+    color: #111214; }
+  .scrollFixed .nav li a {
+    color: #111214;
+    transition: all 0.3s linear; }
+    .scrollFixed .nav li a:hover {
+      color: #e51e3b; }
+  .scrollFixed .nav .dropdown .dropdown-menu {
+    background: white !important; }
 
 .nav .open > a,
 .nav .open > a:focus,
@@ -561,8 +572,7 @@ body {
     background-color: #ffffff; }
 
 footer {
-  background-color: #111214;
-  color: #898f9b; }
+  background-color: whitesmoke; }
   footer .footer .table tbody tr {
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
@@ -572,7 +582,7 @@ footer {
     footer .footer .table tbody tr td {
       border: 0; }
       footer .footer .table tbody tr td a {
-        color: #898f9b;
+        color: #282b30;
         text-decoration: none;
         -webkit-transition: all 0.35s;
         -moz-transition: all 0.35s;
@@ -582,8 +592,7 @@ footer {
         footer .footer .table tbody tr td a:hover {
           color: #ea4c63; }
       footer .footer .table tbody tr td form input {
-        background-color: #444;
-        border: 1px solid #555;
+        border: 1px solid #ddd;
         padding: 10px;
         border-radius: 2px;
         width: 100%; }
@@ -592,7 +601,7 @@ footer {
         right: 15px;
         top: 10px; }
     footer .footer .table tbody tr th {
-      color: #ffffff;
+      color: #111214;
       height: 123px;
       vertical-align: middle;
       text-transform: uppercase;
@@ -605,13 +614,13 @@ footer {
         border: 1px solid #e51e3b;
         margin-top: 6px; }
   footer .copyrights {
-    border-top: 1px solid #6f7582;
-    color: #6f7582; }
+    border-top: 1px solid #dcdee1;
+    color: #282b30; }
     footer .copyrights p {
       text-transform: uppercase;
       font-size: 0.8rem; }
       footer .copyrights p a {
-        color: #898f9b;
+        color: #282b30;
         text-decoration: none;
         -webkit-transition: all 0.35s;
         -moz-transition: all 0.35s;

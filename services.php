@@ -40,7 +40,7 @@
                 <div class="col-xs-12 m-b-md text-center">
                     <h2>Our Security Services</h2>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg">
+                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0s" data-wow-duration="1s">
                     <div class="sec-ser-box text-center">
                         <div class="sec-ser-icon center-block">
                             <img class="img-responsive center-block" src="img/services/icons/cctv.png">
@@ -56,7 +56,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg">
+                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1s">
                     <div class="sec-ser-box text-center">
                         <div class="sec-ser-icon center-block">
                             <img class="img-responsive center-block" src="img/services/icons/safe-box.png">
@@ -72,7 +72,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg">
+                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.4s" data-wow-duration="1s">
                     <div class="sec-ser-box text-center">
                         <div class="sec-ser-icon center-block">
                             <img class="img-responsive center-block" src="img/services/icons/secure.png">
@@ -88,7 +88,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg">
+                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.6s" data-wow-duration="1s">
                     <div class="sec-ser-box text-center">
                         <div class="sec-ser-icon center-block">
                             <img class="img-responsive center-block" src="img/services/icons/padlock.png">
@@ -105,7 +105,7 @@
                     </div>
                 </div>
                 <div class="clearfix"></div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg">
+                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0s" data-wow-duration="1s">
                     <div class="sec-ser-box text-center">
                         <div class="sec-ser-icon center-block">
                             <img class="img-responsive center-block" src="img/services/icons/safe-box.png">
@@ -121,7 +121,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg">
+                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1s">
                     <div class="sec-ser-box text-center">
                         <div class="sec-ser-icon center-block">
                             <img class="img-responsive center-block" src="img/services/icons/secure.png">
@@ -137,7 +137,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg">
+                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.4s" data-wow-duration="1s">
                     <div class="sec-ser-box text-center">
                         <div class="sec-ser-icon center-block">
                             <img class="img-responsive center-block" src="img/services/icons/padlock.png">
@@ -153,7 +153,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg">
+                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.6s" data-wow-duration="1s">
                     <div class="sec-ser-box text-center">
                         <div class="sec-ser-icon center-block">
                             <img class="img-responsive center-block" src="img/services/icons/cctv.png">
@@ -170,7 +170,7 @@
                     </div>
                 </div>
                 <div class="clearfix"></div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg">
+                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0s" data-wow-duration="1s">
                     <div class="sec-ser-box text-center">
                         <div class="sec-ser-icon center-block">
                             <img class="img-responsive center-block" src="img/services/icons/secure.png">
@@ -186,7 +186,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg">
+                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1s">
                     <div class="sec-ser-box text-center">
                         <div class="sec-ser-icon center-block">
                             <img class="img-responsive center-block" src="img/services/icons/padlock.png">
@@ -202,7 +202,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg">
+                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.4s" data-wow-duration="1s">
                     <div class="sec-ser-box text-center">
                         <div class="sec-ser-icon center-block">
                             <img class="img-responsive center-block" src="img/services/icons/safe-box.png">
@@ -218,7 +218,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg">
+                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.6s" data-wow-duration="1s">
                     <div class="sec-ser-box text-center">
                         <div class="sec-ser-icon center-block">
                             <img class="img-responsive center-block" src="img/services/icons/cctv.png">
