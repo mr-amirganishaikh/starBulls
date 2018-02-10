@@ -1,5 +1,11 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script>
+    lightbox.option({
+        'wrapAround': true
+    })
+</script>
 <script src="js/wow.js"></script>
 <script>
     new WOW().init();

@@ -596,6 +596,23 @@ body {
   .team-area .team-box:hover .team-mem-desc {
     filter: grayscale(0); }
 
+.gallery-area .gallery-box {
+  position: relative;
+  margin-bottom: 40px;
+  cursor: pointer; }
+  .gallery-area .gallery-box a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 5px solid #40444b; }
+    .gallery-area .gallery-box a:nth-child(1) {
+      position: static;
+      border: 0; }
+    .gallery-area .gallery-box a:nth-last-child(2) {
+      transform: rotate(3deg); }
+    .gallery-area .gallery-box a:nth-last-child(3) {
+      transform: rotate(-3deg); }
+
 footer {
   background-color: #e6e6e6; }
   footer .footer .table tbody tr {

@@ -5,6 +5,7 @@
 <script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script> <![endif]-->
 <link href="css/freaking-custom.css" rel="stylesheet" />
 <link href="css/animate.css" rel="stylesheet" />
+<link href="css/lightbox.min.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
 
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">

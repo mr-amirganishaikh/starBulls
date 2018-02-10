@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Page name | StarBulls</title>
+    <title>Team | StarBulls</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -20,7 +20,7 @@
     <div class="page-banner">
         <div class="full-black-overlay"></div>
         <div class="page-name text-center">
-            <h1 class="text-uppercase"><strong>services</strong> </h1>
+            <h1 class="text-uppercase"><strong>Team</strong> </h1>
         </div>
         <div class="page-banner-logo">
             <img src="img/starbullslogo.png" class="img-responsive">
