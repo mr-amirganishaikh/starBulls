@@ -571,6 +571,31 @@ body {
     border: 4px solid #000000;
     background-color: #ffffff; }
 
+.team-area .team-box {
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  box-shadow: 0px 9px 24px -8px rgba(51, 51, 51, 0.8); }
+  .team-area .team-box .team-mem-img {
+    filter: grayscale(1);
+    transition: all 0.3s linear; }
+  .team-area .team-box .team-mem-desc {
+    transition: all 0.3s linear;
+    padding: 10px;
+    background: #e51e3b;
+    color: white; }
+    .team-area .team-box .team-mem-desc .team-mem-name {
+      margin: 0;
+      padding: 5px; }
+    .team-area .team-box .team-mem-desc .team-mem-desg {
+      margin: 0;
+      padding: 5px; }
+  .team-area .team-box:hover .team-mem-img {
+    filter: grayscale(0); }
+  .team-area .team-box:hover .team-mem-desc {
+    filter: grayscale(0); }
+
 footer {
   background-color: #e6e6e6; }
   footer .footer .table tbody tr {

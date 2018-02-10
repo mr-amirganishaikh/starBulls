@@ -119,8 +119,8 @@ body {
                 }
             }
         }
-        .dropdown{
-            .dropdown-menu{
+        .dropdown {
+            .dropdown-menu {
                 background: white!important;
             }
         }
@@ -223,6 +223,44 @@ body {
             height: 20px;
             border: 4px solid $color-black;
             background-color: $color-white;
+        }
+    }
+}
+
+//team css
+.team-area {
+    .team-box {
+        border-radius: 5px;
+        overflow: hidden;
+        transition: all 0.3s linear;
+        cursor: pointer;
+        box-shadow: 0px 9px 24px -8px rgba(51, 51, 51, 0.8);
+        .team-mem-img {
+            filter: grayscale(1);
+            transition: all 0.3s linear;
+        }
+        .team-mem-desc {
+//            filter: grayscale(1);
+            transition: all 0.3s linear;
+            padding: 10px;
+            background: #e51e3b;
+            color: white;
+            .team-mem-name {
+                margin: 0;
+                padding: 5px;
+            }
+            .team-mem-desg {
+                margin: 0;
+                padding: 5px;
+            }
+        }
+        &:hover {
+            .team-mem-img {
+                filter: grayscale(0);
+            }
+            .team-mem-desc {
+                filter: grayscale(0);
+            }
         }
     }
 }
