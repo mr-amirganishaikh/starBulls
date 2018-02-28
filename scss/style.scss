@@ -37,7 +37,7 @@ body {
     letter-spacing: 2px;
 }
 
-.home-enquiry-button{
+.home-enquiry-button {
     position: fixed;
     width: 118px;
     right: -38px;
@@ -684,7 +684,8 @@ footer {
             top: -12px;
             font-size: 12px;
             background: $color-white;
-            left: calc(50% - 88px);
+            left: 50%;
+            transform: translateX(-50%);
         }
         h3 {}
     }

@@ -62,12 +62,12 @@
                         <p>It’s as simple as a phone call–or an online quote request, if you prefer. Let us know a bit about your security guard services needs, and we will let you know how we can meet those needs with our effective, reliable and affordable solutions.</p>
                         <div class="clearfix"></div>
                         <div class="col-xs-10 col-xs-offset-1 m-tb-lg text-center test-head">
-                            <p class="font-primary text-uppercase p-lr-sm">what your client's say</p>
-                            <h3 class="font-primary text-uppercase m-none p-tb-md">Service Feedback</h3>
+                            <p class="font-primary text-uppercase p-lr-sm">Call Us</p>
+                            <h3 class="font-primary text-uppercase m-none p-tb-md">+919137255708</h3>
                         </div>
                         <div class="col-xs-10 col-xs-offset-1 m-tb-lg text-center test-head">
-                            <p class="font-primary text-uppercase p-lr-sm">what your client's say</p>
-                            <h3 class="font-primary text-uppercase m-none p-tb-md">Service Feedback</h3>
+                            <p class="font-primary text-uppercase p-lr-sm">Click Here To</p>
+                            <h3 class="font-primary text-uppercase m-none p-tb-md">Request Quote On-Line</h3>
                         </div>
                     </div>
                 </div>

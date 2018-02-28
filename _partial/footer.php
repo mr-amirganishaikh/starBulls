@@ -11,7 +11,7 @@
                         </tr>
                         <tr>
                             <td><i class="fa fa-phone"></i></td>
-                            <td><a href="tel:0001101222333">+919137255708 / +919867885256</a></td>
+                            <td><a href="javascript:void(0)">+919137255708 / +919867885256</a></td>
                         </tr>
                         <tr>
                             <td><i class="fa fa-envelope"></i></td>

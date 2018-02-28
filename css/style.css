@@ -892,7 +892,8 @@ footer {
       top: -12px;
       font-size: 12px;
       background: #ffffff;
-      left: calc(50% - 88px); }
+      left: 50%;
+      transform: translateX(-50%); }
   #homepage-feedback .testimonial-box .testimonials {
     display: none; }
     #homepage-feedback .testimonial-box .testimonials h4 {
