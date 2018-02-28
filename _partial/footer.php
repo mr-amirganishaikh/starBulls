@@ -11,11 +11,11 @@
                         </tr>
                         <tr>
                             <td><i class="fa fa-phone"></i></td>
-                            <td><a href="tel:0001101222333">000-1101-222-333</a></td>
+                            <td><a href="tel:0001101222333">+919137255708 / +919867885256</a></td>
                         </tr>
                         <tr>
                             <td><i class="fa fa-envelope"></i></td>
-                            <td><a href="mailto:info@starbulls.com">info@starbulls.com</a></td>
+                            <td><a href="mailto:info@starbullsfms.com">info@starbullsfms.com</a></td>
                         </tr>
                         <tr>
                             <td><i class="fa fa-home"></i></td>
@@ -34,19 +34,23 @@
                         </tr>
                         <tr class="tw">
                             <td style="width: 30px;"><i class="fa fa-twitter"></i></td>
-                            <td><a href="https://www.twitter.com/">Twitter</a></td>
+                            <td><a href="https://www.twitter.com/" target="_blank">Twitter</a></td>
                         </tr>
                         <tr class="fb">
                             <td><i class="fa fa-facebook"></i></td>
-                            <td><a href="https://www.facebook.com/">Facebook</a></td>
+                            <td><a href="https://www.facebook.com/" target="_blank">Facebook</a></td>
                         </tr>
-                        <tr class="pin">
-                            <td><i class="fa fa-pinterest"></i></td>
-                            <td><a href="https://www.pinterest.com/">Pinterest</a></td>
+                        <tr class="tw">
+                            <td><i class="fa fa-linkedin"></i></td>
+                            <td><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></td>
                         </tr>
                         <tr class="insta">
                             <td><i class="fa fa-instagram"></i></td>
-                            <td><a href="https://www.instagram.com/">Instagram</a></td>
+                            <td><a href="https://www.instagram.com/" target="_blank">Instagram</a></td>
+                        </tr>
+                        <tr class="yt">
+                            <td><i class="fa fa-youtube"></i></td>
+                            <td><a href="https://www.youtube.com/" target="_blank">Youtube</a></td>
                         </tr>
                     </table>
                 </div>
@@ -69,7 +73,7 @@
                         </tr>
                         <tr>
                             <td><i class="fa fa-caret-right"></i></td>
-                            <td><a href="blog.php">Blog</a></td>
+                            <td><a href="gallery.php">Gallery</a></td>
                         </tr>
                         <tr>
                             <td><i class="fa fa-caret-right"></i></td>
@@ -107,7 +111,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-md-8">
-                <p>copyright &copy; 2017 all rights reserved. <a href="javascript:void()">Privacy policy</a> | <a href="javascript:void()">Terms &amp; condition</a></p>
+                <p>copyright &copy; 2018 all rights reserved by Starbulls Facility Management Services (I) Pvt.Ltd.
+<!--                    <a href="javascript:void()">Privacy policy</a> | <a href="javascript:void()">Terms &amp; condition</a>-->
+                </p>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <p class="credits">Site by <a href="http://www.kreativesanity.com/" target="_blank">Kreative Sanity</a></p>

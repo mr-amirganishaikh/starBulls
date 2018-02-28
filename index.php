@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 " >
+                    <div class="col-md-5 ">
                         <div class="events-box light" style="background-image: url(img/temp.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Close Protection</h2>
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7 " >
+                    <div class="col-md-7 ">
                         <div class="events-box dark" style="background-image: url(img/1.jpg);">
                             <div class="box-details">
                                 <h2 class="box-heading">Security Systems</h2>
@@ -103,10 +103,10 @@
                 <div class="services-section">
                     <div class="col-md-6 services-description">
                         <p>
-                            To prevent tampering and unauthorized entry into the premises by our engineers developed a burglar alarm system in the house. 
+                            To prevent tampering and unauthorized entry into the premises by our engineers developed a burglar alarm system in the house.
                         </p>
                         <p>
-                            Installation of the alarm will be an effective means of protection of the property when you leave the house unattended. 
+                            Installation of the alarm will be an effective means of protection of the property when you leave the house unattended.
                         </p>
                         <p>
                             Innovative technologies for the protection of housing makes the cost of the security system for a country house fully justified.
@@ -252,6 +252,50 @@
                 </div>
             </div>
         </section>
+        
+        <button type="button" class="btn home-enquiry-button" data-toggle="modal" data-target="#enquiryModal">Enquiry</button>
+
+        <div id="enquiryModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Enquiry Form</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="contact-form-box">
+                            <form>
+                                <div class="sb-form-input">
+                                    <p>Name</p>
+                                    <input class="contact-field" type="text" placeholder="" name="name" onkeypress="return keycheckval(event);" required>
+                                </div>
+                                <div class="sb-form-input">
+                                    <p>E-mail</p>
+                                    <input class="contact-field" type="email" placeholder="" name="email" required>
+                                </div>
+                                <div class="sb-form-input">
+                                    <p>Phone</p>
+                                    <input id="mobile" class="contact-field" type="text" placeholder="" name="phone" onkeypress="return isNumber(event);" onchange="return checkmobile();" maxlength="10" required>
+                                </div>
+                                <div class="sb-form-input">
+                                    <p>Query</p>
+                                    <textarea rows="3" class="contact-field" type="text" placeholder="" name="query" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-starbulls-default">Send</button>
+                            </form>
+                        </div>
+                    </div>
+<!--
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+-->
+                </div>
+
+            </div>
+        </div>
     </main>
     <div class="clearfix"></div>
 
