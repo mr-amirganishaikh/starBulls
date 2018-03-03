@@ -87,10 +87,12 @@ body {
         }
     }
     .fix-logo-top {
-        position: fixed;
+        //        position: fixed;
+        position: absolute;
         width: 70px;
-        top: -100px;
-        left: calc(50% - 35px);
+        top: -200px;
+        //        left: calc(50% - 35px);
+        left: 0;
         @include transition(all 0.5s);
     }
     #switch-cont {
@@ -103,6 +105,9 @@ body {
                 background: $color-main;
             }
         }
+    }
+    .nf {
+        transition: all 0.3s linear;
     }
 }
 
@@ -177,12 +182,13 @@ body {
 }
 
 .head-social {
+    margin-left: 25px;
     li {
         @include xs-down {
             display: inline-block;
         }
         a {
-            padding: 5px;
+            padding: 0 5px;
             margin: 3px;
             color: #ccc;
             &:focus {
@@ -281,8 +287,11 @@ body {
 .gallery-area {
     .gallery-box {
         position: relative;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         cursor: pointer;
+        overflow: hidden;
+        border-radius: 4px;
+        box-shadow: 0px 10px 20px -8px rgba(51, 51, 51, 0.6);
         a {
             position: absolute;
             left: 0;
@@ -730,6 +739,18 @@ footer {
     }
 }
 
+#homepage-clients {
+    @extend .relative-box;
+    padding: 30px 0 50px;
+    background: url(../img/blackbg.gif)repeat;
+    .title {
+        h2 {
+            @extend .section-title;
+            color: $color-white;
+        }
+    }
+}
+
 //-------------------------------------------------------------about us css-------------------------------------------------------------
 .about-box {
     overflow: auto;
@@ -835,31 +856,59 @@ footer {
     //            }
     //        }
     //    }
-    .sec-ser-box {
-        background: #efefef;
-        padding: 40px 20px;
-        .sec-ser-icon {
-            width: 100px;
-            padding: 20px;
-            background: #fff;
-            border-radius: 50%;
-            border: 2px solid #e51e3b;
-        }
-        .sec-ser-title {
-            h3 {
-                font-size: 17px;
-                font-weight: bold;
+    //    ---------------------
+    //    .sec-ser-box {
+    //        background: #efefef;
+    //        padding: 40px 20px;
+    //        .sec-ser-icon {
+    //            width: 100px;
+    //            padding: 20px;
+    //            background: #fff;
+    //            border-radius: 50%;
+    //            border: 2px solid #e51e3b;
+    //        }
+    //        .sec-ser-title {
+    //            h3 {
+    //                font-size: 17px;
+    //                font-weight: bold;
+    //            }
+    //            margin-bottom:20px;
+    //        }
+    //        .sec-ser-short-desc {
+    //            margin-bottom: 20px;
+    //        }
+    //    }
+    //------------------------------------
+    .serv-subcat {
+        @extend .relative-box;
+        overflow: hidden;
+        .serv-subcat-overlay {
+            @extend .full-black-overlay;
+            top: 100%;
+            @include transition(all 0.35s);
+            .over-flex {
+                display: flex;
+                height: 100%;
+                p {
+                    margin: auto;
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 22px;
+                }
             }
-            margin-bottom:20px;
         }
-        .sec-ser-short-desc {
-            margin-bottom: 20px;
+        &:hover {
+            .serv-subcat-overlay {
+                top: 0;
+            }
         }
     }
 }
 
 //-------------------------------------------------------------contact css-------------------------------------------------------------
 .address-box {
+    padding: 15px;
+    border: 2px dashed #333;
     .table {
         tbody {
             tr {
@@ -875,6 +924,8 @@ footer {
 }
 
 .contact-form-box {
+    padding: 15px;
+    border: 2px dashed #333;
     .sb-form-input {
         @extend .relative-box;
         p {

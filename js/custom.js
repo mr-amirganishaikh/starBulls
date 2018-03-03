@@ -159,11 +159,11 @@ $(window).load(function () {
 /* Call function on window scroll */
 $(window).scroll(function () {
     // Add class on scroll
-    fixScrollNav({
-        target: '.navbar',
-        offset: 0
-    });
-    var conthead_height = $(".contact-header").height();
+//    fixScrollNav({
+//        target: '.navbar',
+//        offset: 56
+//    });
+    var conthead_height = $(".contact-header").outerHeight();
     var headscroll = $(window).scrollTop();
     //    alert(conthead_height);
     //    alert(headscroll);
@@ -174,15 +174,15 @@ $(window).scroll(function () {
     }*/
 
     if (headscroll > conthead_height) {
-        $(".navbar").addClass("fix-navbar");
-        $(".navbar").addClass("scrollFixed");
+        $(".nf").addClass("fix-navbar");
+        $(".nf").addClass("scrollFixed");
         $("#switch-cont").addClass("container-fluid").removeClass("container");
-        $(".fix-logo-top").css("top", "0");
+        $(".fix-logo-top").css("top", "-40px");
     } else {
-        $(".navbar").removeClass("fix-navbar");
-        $(".navbar").removeClass("scrollFixed");
+        $(".nf").removeClass("fix-navbar");
+        $(".nf").removeClass("scrollFixed");
         $("#switch-cont").addClass("container").removeClass("container-fluid");
-        $(".fix-logo-top").css("top", "-100px");
+        $(".fix-logo-top").css("top", "-200px");
     }
 
     goToTop('.backtotop');

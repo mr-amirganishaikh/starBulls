@@ -37,203 +37,74 @@
     <main class="service-area m-b-xxl">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 m-b-md text-center">
+                <div class="col-xs-12 m-b-md text-justify">
                     <h2>Our Security Services</h2>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0s" data-wow-duration="1s">
-                    <div class="sec-ser-box text-center">
-                        <div class="sec-ser-icon center-block">
-                            <img class="img-responsive center-block" src="img/services/icons/cctv.png">
-                        </div>
-                        <div class="sec-ser-title">
-                            <h3>Security Guards</h3>
-                        </div>
-                        <div class="sec-ser-short-desc">
-                            <p>We offer the best in class security guards. These are men built for the job.</p>
-                        </div>
-                        <a href="s-security-guard.php">
-                            <button class="btn btn-starbulls-default">Read More</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1s">
-                    <div class="sec-ser-box text-center">
-                        <div class="sec-ser-icon center-block">
-                            <img class="img-responsive center-block" src="img/services/icons/safe-box.png">
-                        </div>
-                        <div class="sec-ser-title">
-                            <h3>Security Lady</h3>
-                        </div>
-                        <div class="sec-ser-short-desc">
-                            <p>Women as a security guard as a lot more to offer in this specialized role.</p>
-                        </div>
-                        <a href="s-security-lady.php">
-                            <button class="btn btn-starbulls-default">Read More</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.4s" data-wow-duration="1s">
-                    <div class="sec-ser-box text-center">
-                        <div class="sec-ser-icon center-block">
-                            <img class="img-responsive center-block" src="img/services/icons/secure.png">
-                        </div>
-                        <div class="sec-ser-title">
-                            <h3>Security Supervisor/Officer</h3>
-                        </div>
-                        <div class="sec-ser-short-desc">
-                            <p>As your assets continue to grow and you need your security team to expand.</p>
-                        </div>
-                        <a href="s-security-supervisor.php">
-                            <button class="btn btn-starbulls-default">Read More</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.6s" data-wow-duration="1s">
-                    <div class="sec-ser-box text-center">
-                        <div class="sec-ser-icon center-block">
-                            <img class="img-responsive center-block" src="img/services/icons/padlock.png">
-                        </div>
-                        <div class="sec-ser-title">
-                            <h3>Armed Guards</h3>
-                        </div>
-                        <div class="sec-ser-short-desc">
-                            <p>We have been providing security Armed Guards to companies in all parts of India</p>
-                        </div>
-                        <a href="s-armed-guard.php">
-                            <button class="btn btn-starbulls-default">Read More</button>
-                        </a>
-                    </div>
+                    <p>A well-trained security officer’s instinct and judgment beat even the most advanced technology, making ‘Manned Guarding’ the most crucial aspect of any effective security deployment strategy. As Asia's leading security service provider, TOPSGRUP has more than 140,000 licensed officers deployed across the country protecting invaluable human resources and securing trillions of dollars worth of corporate assets. Every security officer is selected through a stringent selection process that includes detailed background checks. Further, our officers undergo a rigorous 160-hour training program to meet industry and region-specific security norms. Our ISO 9001:2008 standards ensure strict compliance to globally-recognized operational standards and corporate governance practices.</p>
+                    <p>A well-trained security officer’s instinct and judgment beat even the most advanced technology, making ‘Manned Guarding’ the most crucial aspect of any effective security deployment strategy. As human resources and securing trillions of dollars worth of corporate assets. Every security officer is selected through a stringent selection process that includes detailed background checks. Further, our officers undergo a rigorous 160-hour training program to meet industry and region-specific security norms. Our ISO 9001:2008 standards ensure strict compliance to globally-recognized operational standards and corporate governance practices.</p>
+                    <p>A well-trained security officer’s instinct and judgment beat even the most advanced technology, making ‘Manned Guarding’ the most crucial aspect of any effective security deployment strategy. As Asia's leading security service provider, TOPSGRUP has more than 140,000 licensed officers deployed across the country protecting invaluable human resources and securing trillions of dollars worth of corporate assets.</p>
                 </div>
                 <div class="clearfix"></div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0s" data-wow-duration="1s">
-                    <div class="sec-ser-box text-center">
-                        <div class="sec-ser-icon center-block">
-                            <img class="img-responsive center-block" src="img/services/icons/safe-box.png">
+                <div class="col-xs-12 col-sm-4 m-b-md">
+                    <div class="serv-subcat">
+                        <img class="img-responsive" src="img/services/s1.jpg">
+                        <div class="serv-subcat-overlay">
+                            <div class="over-flex">
+                                <p>Service 1</p>
+                            </div>
                         </div>
-                        <div class="sec-ser-title">
-                            <h3>PSO / CPO</h3>
-                        </div>
-                        <div class="sec-ser-short-desc">
-                            <p>We have specialized Personal Security officers / Close Protection Officers for your personal protection</p>
-                        </div>
-                        <a href="s-pso-cpo.php">
-                            <button class="btn btn-starbulls-default">Read More</button>
-                        </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1s">
-                    <div class="sec-ser-box text-center">
-                        <div class="sec-ser-icon center-block">
-                            <img class="img-responsive center-block" src="img/services/icons/secure.png">
+                <div class="col-xs-12 col-sm-4 m-b-md">
+                    <div class="serv-subcat">
+                        <img class="img-responsive" src="img/services/s1.jpg">
+                        <div class="serv-subcat-overlay">
+                            <div class="over-flex">
+                                <p>Service 1</p>
+                            </div>
                         </div>
-                        <div class="sec-ser-title">
-                            <h3>CCTV</h3>
-                        </div>
-                        <div class="sec-ser-short-desc">
-                            <p>You can't continuously keep an eye on your house, assets, office, industry etc 24-hours.</p>
-                        </div>
-                        <a href="s-cctv.php">
-                            <button class="btn btn-starbulls-default">Read More</button>
-                        </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.4s" data-wow-duration="1s">
-                    <div class="sec-ser-box text-center">
-                        <div class="sec-ser-icon center-block">
-                            <img class="img-responsive center-block" src="img/services/icons/padlock.png">
+                <div class="col-xs-12 col-sm-4 m-b-md">
+                    <div class="serv-subcat">
+                        <img class="img-responsive" src="img/services/s1.jpg">
+                        <div class="serv-subcat-overlay">
+                            <div class="over-flex">
+                                <p>Service 1</p>
+                            </div>
                         </div>
-                        <div class="sec-ser-title">
-                            <h3>Baggage Scanner</h3>
-                        </div>
-                        <div class="sec-ser-short-desc">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        </div>
-                        <a href="s-baggage-scanner.php">
-                            <button class="btn btn-starbulls-default">Read More</button>
-                        </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.6s" data-wow-duration="1s">
-                    <div class="sec-ser-box text-center">
-                        <div class="sec-ser-icon center-block">
-                            <img class="img-responsive center-block" src="img/services/icons/cctv.png">
+                <div class="col-xs-12 col-sm-4 m-b-md">
+                    <div class="serv-subcat">
+                        <img class="img-responsive" src="img/services/s1.jpg">
+                        <div class="serv-subcat-overlay">
+                            <div class="over-flex">
+                                <p>Service 1</p>
+                            </div>
                         </div>
-                        <div class="sec-ser-title">
-                            <h3>Dog Security</h3>
-                        </div>
-                        <div class="sec-ser-short-desc">
-                            <p>We provide Detection dogs (sniffer dogs) and Guard dogs.</p>
-                        </div>
-                        <a href="s-dog-security.php">
-                            <button class="btn btn-starbulls-default">Read More</button>
-                        </a>
                     </div>
                 </div>
-                <div class="clearfix"></div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0s" data-wow-duration="1s">
-                    <div class="sec-ser-box text-center">
-                        <div class="sec-ser-icon center-block">
-                            <img class="img-responsive center-block" src="img/services/icons/secure.png">
+                <div class="col-xs-12 col-sm-4 m-b-md">
+                    <div class="serv-subcat">
+                        <img class="img-responsive" src="img/services/s1.jpg">
+                        <div class="serv-subcat-overlay">
+                            <div class="over-flex">
+                                <p>Service 1</p>
+                            </div>
                         </div>
-                        <div class="sec-ser-title">
-                            <h3>Dog Handler</h3>
-                        </div>
-                        <div class="sec-ser-short-desc">
-                            <p>We provide Dog Squad handlers who are security licensed and certified.</p>
-                        </div>
-                        <a href="s-dog-handler.php">
-                            <button class="btn btn-starbulls-default">Read More</button>
-                        </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1s">
-                    <div class="sec-ser-box text-center">
-                        <div class="sec-ser-icon center-block">
-                            <img class="img-responsive center-block" src="img/services/icons/padlock.png">
+                <div class="col-xs-12 col-sm-4 m-b-md">
+                    <div class="serv-subcat">
+                        <img class="img-responsive" src="img/services/s1.jpg">
+                        <div class="serv-subcat-overlay">
+                            <div class="over-flex">
+                                <p>Service 1</p>
+                            </div>
                         </div>
-                        <div class="sec-ser-title">
-                            <h3>Fire Marshal Security</h3>
-                        </div>
-                        <div class="sec-ser-short-desc">
-                            <p>Starbulls Security Management Services offer a total Fire & Marshal and Security Capability</p>
-                        </div>
-                        <a href="s-fire-marshal.php">
-                            <button class="btn btn-starbulls-default">Read More</button>
-                        </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.4s" data-wow-duration="1s">
-                    <div class="sec-ser-box text-center">
-                        <div class="sec-ser-icon center-block">
-                            <img class="img-responsive center-block" src="img/services/icons/safe-box.png">
-                        </div>
-                        <div class="sec-ser-title">
-                            <h3>Car vehicle Escort</h3>
-                        </div>
-                        <div class="sec-ser-short-desc">
-                            <p>We provide pilot car drivers who work in conjunction with the driver</p>
-                        </div>
-                        <a href="s-carvehicle-escort.php">
-                            <button class="btn btn-starbulls-default">Read More</button>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 m-b-lg wow bounceInUp" data-wow-delay="0.6s" data-wow-duration="1s">
-                    <div class="sec-ser-box text-center">
-                        <div class="sec-ser-icon center-block">
-                            <img class="img-responsive center-block" src="img/services/icons/cctv.png">
-                        </div>
-                        <div class="sec-ser-title">
-                            <h3>PSO & CPO Security Guard Service</h3>
-                        </div>
-                        <div class="sec-ser-short-desc">
-                            <p>Starbulls Security provides Close Protection Officers (CPOs),Armed Guards, Bodyguards</p>
-                        </div>
-                        <a href="s-psocpo-officer.php">
-                            <button class="btn btn-starbulls-default">Read More</button>
-                        </a>
-                    </div>
-                </div>
+                
                 <div class="clearfix"></div>
 
             </div>

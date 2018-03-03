@@ -6,6 +6,8 @@
 <link href="css/freaking-custom.css" rel="stylesheet" />
 <link href="css/animate.css" rel="stylesheet" />
 <link href="css/lightbox.min.css" rel="stylesheet" />
+<link href="css/owl.carousel.min.css" rel="stylesheet" />
+<link href="css/owl.theme.default.min.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
 
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">

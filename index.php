@@ -48,6 +48,7 @@
     <div class="clearfix"></div>
 
     <main>
+<!--
         <section id="homepage-events">
             <div class="container">
                 <div class="title">
@@ -93,6 +94,7 @@
                 </div>
             </div>
         </section>
+-->
         <div class="clearfix"></div>
 
         <section id="homepage-services">
@@ -252,7 +254,58 @@
                 </div>
             </div>
         </section>
-        
+        <div class="clearfix"></div>
+        <section id="homepage-clients" class="p-t-xxl">
+            <div class="container m-t-md">
+                <div class="col-xs-12 title">
+                    <h2 class="">Our Client's</h2>
+                </div>
+                <div class="col-xs-12">
+                    <div class="owl-carousel">
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/1.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/2.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/3.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/4.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/5.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/6.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/7.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/8.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/1.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/2.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/3.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/4.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/gallery/5.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <button type="button" class="btn home-enquiry-button" data-toggle="modal" data-target="#enquiryModal">Enquiry</button>
 
         <div id="enquiryModal" class="modal fade" role="dialog">
@@ -287,7 +340,7 @@
                             </form>
                         </div>
                     </div>
-<!--
+                    <!--
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
@@ -303,8 +356,29 @@
         <!-- Footer section included -->
         <?php include '_partial/footer.php' ?>
     </footer>
+
 </body>
 <!-- Footer scripts included -->
 <?php include '_partial/footer-scripts.php' ?>
+
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            margin: 10,
+            loop: true,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
+    </script>
 
 </html>
