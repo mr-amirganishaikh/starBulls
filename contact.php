@@ -67,16 +67,16 @@
                                 <input class="contact-field" type="text" placeholder="" name="name" onkeypress="return keycheckval(event);" required>
                             </div>
                             <div class="sb-form-input">
-                                <p>E-mail</p>
-                                <input class="contact-field" type="email" placeholder="" name="email" required>
-                            </div>
-                            <div class="sb-form-input">
                                 <p>Phone</p>
                                 <input id="mobile" class="contact-field" type="text" placeholder="" name="phone" onkeypress="return isNumber(event);" onchange="return checkmobile();" maxlength="10" required>
                             </div>
                             <div class="sb-form-input">
+                                <p>E-mail</p>
+                                <input class="contact-field" type="email" placeholder="" name="email" required>
+                            </div>
+                            <div class="sb-form-input">
                                 <p>Query</p>
-                                <textarea rows="3" class="contact-field" type="text" placeholder="" name="query" required></textarea>
+                                <textarea rows="3" maxlength="60" class="contact-field" type="text" placeholder="" name="query" required></textarea>
                             </div>
                             <button type="submit" class="btn btn-starbulls-default">Send</button>
                         </form>
