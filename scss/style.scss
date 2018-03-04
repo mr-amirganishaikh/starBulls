@@ -749,6 +749,50 @@ footer {
             color: $color-white;
         }
     }
+    .client-overlay {
+        @extend .full-black-overlay;
+        background: white;
+        mix-blend-mode: exclusion;
+    }
+    .owl-carousel {
+        .item {
+            img {
+                transition: all 0.3s linear;
+                filter: grayscale(1);
+                &:hover {
+                    filter: grayscale(0);
+                }
+            }
+        }
+    }
+}
+
+.client-area {
+    @extend #homepage-clients;
+}
+
+.testimonial-area {
+    .testimonial-box {
+        margin-bottom: 30px;
+        .testimonials {
+            background: #efefef;
+            padding: 15px;
+            h4 {
+                font-style: italic;
+                line-height: 1.7;
+                color: #444;
+                font-size: 14px;
+            }
+            p {
+                color: $color-main;
+            }
+            span {
+                font-size: 12px;
+                letter-spacing: 2px;
+                color: $color-main;
+            }
+        }
+    }
 }
 
 //-------------------------------------------------------------about us css-------------------------------------------------------------

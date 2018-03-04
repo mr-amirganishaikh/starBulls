@@ -3,6 +3,25 @@
 <script src="js/lightbox.min.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        margin: 10,
+        loop: true,
+        autoplay: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 6
+            }
+        }
+    })
+</script>
+<script>
     lightbox.option({
         'wrapAround': true
     })

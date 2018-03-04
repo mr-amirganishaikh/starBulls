@@ -21,7 +21,6 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -31,15 +30,14 @@
                     <img src="img/starbullslogo.png" width="150px">
                     <h1>Premium security services<br>Trusted by millions</h1>
                 </div>
-                <img src="img/sliders/main.jpg" alt="" title="Starbull Security">
-            </div>
-            <div class="item">
                 <img src="img/sliders/1.jpg" alt="" title="Starbull Security">
             </div>
             <div class="item">
+
                 <img src="img/sliders/2.jpg" alt="" title="Starbull Security">
             </div>
             <div class="item">
+
                 <img src="img/sliders/3.JPG" alt="" title="Starbull Security">
             </div>
         </div>
@@ -48,7 +46,7 @@
     <div class="clearfix"></div>
 
     <main>
-<!--
+        <!--
         <section id="homepage-events">
             <div class="container">
                 <div class="title">
@@ -256,6 +254,7 @@
         </section>
         <div class="clearfix"></div>
         <section id="homepage-clients" class="p-t-xxl">
+            <div class="client-overlay"></div>
             <div class="container m-t-md">
                 <div class="col-xs-12 title">
                     <h2 class="">Our Client's</h2>
@@ -263,43 +262,28 @@
                 <div class="col-xs-12">
                     <div class="owl-carousel">
                         <div class="item">
-                            <img class="img-responsive" src="img/gallery/1.jpg">
+                            <img class="img-responsive" src="img/clients/1.png">
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="img/gallery/2.jpg">
+                            <img class="img-responsive" src="img/clients/2.png">
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="img/gallery/3.jpg">
+                            <img class="img-responsive" src="img/clients/3.png">
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="img/gallery/4.jpg">
+                            <img class="img-responsive" src="img/clients/4.png">
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="img/gallery/5.jpg">
+                            <img class="img-responsive" src="img/clients/5.png">
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="img/gallery/6.jpg">
+                            <img class="img-responsive" src="img/clients/6.png">
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="img/gallery/7.jpg">
+                            <img class="img-responsive" src="img/clients/7.png">
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="img/gallery/8.jpg">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="img/gallery/1.jpg">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="img/gallery/2.jpg">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="img/gallery/3.jpg">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="img/gallery/4.jpg">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="img/gallery/5.jpg">
+                            <img class="img-responsive" src="img/clients/8.png">
                         </div>
                     </div>
                 </div>
@@ -360,25 +344,5 @@
 </body>
 <!-- Footer scripts included -->
 <?php include '_partial/footer-scripts.php' ?>
-
-    <script>
-        var owl = $('.owl-carousel');
-        owl.owlCarousel({
-            margin: 10,
-            loop: true,
-            autoplay: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 6
-                }
-            }
-        })
-    </script>
 
 </html>
