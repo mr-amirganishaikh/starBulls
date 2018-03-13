@@ -8,6 +8,21 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Head section included -->
     <?php include '_partial/head.php' ?>
+        <style>            
+            main {
+                margin-top: -90px;
+                padding-top: 90px;
+            }
+            
+            .about-left {
+                background: white;
+                padding: 30px 15px;
+                overflow: auto;
+                box-shadow: 1px 1px 20px -8px #333;
+                margin-top: -80px;
+            }
+        }
+        </style>
 </head>
 
 <body>
@@ -46,6 +61,29 @@
     <div class="clearfix"></div>
 
     <main>
+        <section class="p-tb-xxl">
+            <div class="container">
+                <div class="row" style="">
+                    <div class="col-xs-12 col-sm-6 col-md-5">
+                        <div class="about-left text-justify">
+                            <h2 class="text-uppercase m-b-xl"><strong>WELCOME TO STARBULLS</strong></h2>
+                            <p>No matter how complex the job, or how many sites you need secured, as National Security Service’s valued client you will have a single point of contact with a dedicated Security Coordinator to guarantee prompt and efficient service, with no hassle for you.</p>
+
+                            <a href="about.php"><button type="button" class="btn btn-starbulls-default pull-right">Read More</button></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-7">
+                        <div class="about-right text-justify">
+                            <h2 class="text-uppercase m-b-xl"><strong>company profile</strong></h2>
+                            <p>No matter where or when or why you need Security Guards, National Security Service (NSS) is your one stop source for nationwide security guard solutions.</p>
+
+                            <p>As a recognized leader in the field, nationwide, with 437 offices spanning all 50 states, National Security Service stands ready to provide you with the highest level of service available –reliably, affordable, and carefully tailored to your precise needs.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
         <!--
         <section id="homepage-events">
             <div class="container">
@@ -175,6 +213,7 @@
         <section id="homepage-statistics" class="text-center font-primary" style="padding:75px 0">
             <div class="full-black-overlay"></div>
             <div class="container">
+<!--
                 <div class="row m-t-md">
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-xxl">
                         <div class="counter-box">
@@ -209,8 +248,9 @@
                         </div>
                     </div>
                 </div>
+-->
                 <div class="clearfix"></div>
-                <div class="row m-t-xxl">
+                <div class="row m-t-sm">
                     <div class="col-xs-12 stats-text">
                         <h3>With over 5 decades of experience, We deliver</h3>
                         <h2 class="text-uppercase m-b-xl"><strong>premium security solution at best price</strong></h2>

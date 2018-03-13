@@ -832,15 +832,14 @@ footer {
     color: #ffffff; }
 
 #homepage-services {
-  background-color: #111214;
+  background-color: #eaebed;
   padding: 30px 0 50px; }
   #homepage-services .title h2 {
-    color: #ffffff; }
+    color: #333; }
   #homepage-services .services-section {
-    border: 8px solid #282b30;
+    border: 8px solid rgba(17, 18, 20, 0.2);
     padding: 50px 0 0 30px;
-    margin: 50px 0;
-    color: #e6e6e6; }
+    margin: 50px 0; }
     #homepage-services .services-section .services-description {
       padding-top: 50px; }
       #homepage-services .services-section .services-description p {
@@ -852,7 +851,7 @@ footer {
         color: #e51e3b; }
     #homepage-services .services-section .services-grid {
       padding: 30px 0 30px 30px;
-      background: #111214;
+      background-color: #eaebed;
       -webkit-tranform: translateX(8px);
       -moz-transform: translateX(8px);
       -ms-transform: translateX(8px);
@@ -936,7 +935,7 @@ footer {
   #homepage-clients .title h2, .client-area .title h2 {
     color: #ffffff; }
   #homepage-clients .client-overlay, .client-area .client-overlay {
-    background: white;
+    background: rgba(255, 255, 255, 0.75);
     mix-blend-mode: exclusion; }
   #homepage-clients .owl-carousel .item img, .client-area .owl-carousel .item img {
     transition: all 0.3s linear;
@@ -1016,6 +1015,12 @@ footer {
         font-size: 22px; }
   .service-area .serv-subcat:hover .serv-subcat-overlay {
     top: 0; }
+
+.sectors-area .sector-box {
+  padding: 15px;
+  background: #ffffff;
+  border-top: 5px solid #e51e3b;
+  box-shadow: 1px 1px 10px -4px #333; }
 
 .address-box {
   padding: 15px;

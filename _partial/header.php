@@ -53,7 +53,8 @@
                                 <li><a href="services.php">Event Security</a></li>
                             </ul>
                         </li>
-                        <li><a href="team.php">Team</a></li>
+                        <li><a href="sectors.php">Sectors</a></li>
+<!--                        <li><a href="team.php">Team</a></li>-->
                         <li><a href="testimonial.php">Testimonials</a></li>
                         <li><a href="gallery.php">Gallery</a></li>
                         <li><a href="contact.php">Contact</a></li>

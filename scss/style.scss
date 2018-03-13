@@ -605,20 +605,20 @@ footer {
 // Homepage Service--------------------------------------------------------------------------------------------------------------
 #homepage-services {
     @extend .relative-box;
-    background-color: $color-base;
+    background-color: lighten($color-base, 85%);
     padding: 30px 0 50px;
     .title {
         h2 {
             @extend .section-title;
-            color: $color-white;
+            color: #333;
         }
     }
     .services-section {
         @extend .relative-box;
-        border: 8px solid lighten($color-base, 10%);
+        border: 8px solid transparentize($color-base, 0.8);
         padding: 50px 0 0 30px;
         margin: 50px 0;
-        color: darken($color-white, 10%);
+        //        color: darken($color-white, 10%);
         .services-description {
             padding-top: 50px;
             p {
@@ -634,7 +634,7 @@ footer {
         }
         .services-grid {
             padding: 30px 0 30px 30px;
-            background: $color-base;
+            background-color: lighten($color-base, 85%);
             @include transform(translateX(8px));
             margin-top: -140px;
             .list-grid {
@@ -751,7 +751,7 @@ footer {
     }
     .client-overlay {
         @extend .full-black-overlay;
-        background: white;
+        background: rgba(255, 255, 255, 0.75);
         mix-blend-mode: exclusion;
     }
     .owl-carousel {
@@ -946,6 +946,16 @@ footer {
                 top: 0;
             }
         }
+    }
+}
+
+//---------------------------------------------------------------sector css---------------------------------------------------------------
+.sectors-area {
+    .sector-box {
+        padding: 15px;
+        background: $color-white;
+        border-top: 5px solid $color-main;
+        box-shadow: 1px 1px 10px -4px #333;
     }
 }
 
