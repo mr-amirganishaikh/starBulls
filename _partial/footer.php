@@ -1,3 +1,4 @@
+<!--
 <div class="footer p-tb-xl">
     <div class="container">
         <div class="row">
@@ -107,12 +108,44 @@
         </div>
     </div>
 </div>
+-->
+
+<div class="footer2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="footer-logo">
+                    <img class="img-responsive" src="img/starbullslogo.png">
+                </div>
+                <div class="quick-links">
+                    <ul>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="address">
+                    <p>6 / 20, Air-Condition Market Building, Tardeo Road, Tardeo,Mumbai - 400 034.</p>
+                </div>
+                <div class="social-links">
+                    <ul>
+                        <li><a href="javascript:void(0)" setcolor="facebook-text"><i class="fa fa-facebook fa-2x"></i></a></li>
+                        <li><a href="javascript:void(0)" setcolor="youtube-text"><i class="fa fa-youtube fa-2x"></i></a></li>
+                        <li><a href="javascript:void(0)" setcolor="instagram-text"><i class="fa fa-instagram fa-2x"></i></a></li>
+                        <li><a href="javascript:void(0)" setcolor="twitter-text"><i class="fa fa-twitter fa-2x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="copyrights p-tb-xl">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-md-8">
                 <p>copyright &copy; 2018 all rights reserved by Starbulls Facility Management Services (I) Pvt.Ltd.
-<!--                    <a href="javascript:void()">Privacy policy</a> | <a href="javascript:void()">Terms &amp; condition</a>-->
+                    <!--                    <a href="javascript:void()">Privacy policy</a> | <a href="javascript:void()">Terms &amp; condition</a>-->
                 </p>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">

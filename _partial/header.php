@@ -43,14 +43,14 @@
                         <li class="dropdown">
                             <a class="dropdown-toggle" href="javascript:void(0)">Services <span class="caret"></span></a>
                             <ul class="dropdown-menu" style="background:#111">
-                                <li><a href="services.php">Strategic Guarding </a></li>
-                                <li><a href="services.php">Electronic Surveillance</a></li>
-                                <li><a href="services.php">Fire & Safety</a></li>
-                                <li><a href="services.php">Dog Squad</a></li>
-                                <li><a href="services.php">Facility Management </a></li>
-                                <li><a href="services.php">Logistic Services</a></li>
-                                <li><a href="services.php">Support Services</a></li>
-                                <li><a href="services.php">Event Security</a></li>
+                                <li><a href="strategic-guarding.php">Strategic Guarding </a></li>
+                                <li><a href="electronic-surveillance.php">Electronic Surveillance</a></li>
+                                <li><a href="fire-safety.php">Fire & Safety</a></li>
+                                <li><a href="dog-squad.php">Dog Squad</a></li>
+                                <li><a href="facility-management.php">Facility Management </a></li>
+                                <li><a href="logistic-services.php">Logistic Services</a></li>
+                                <li><a href="support-services.php">Support Services</a></li>
+                                <li><a href="event-security.php">Event Security</a></li>
                             </ul>
                         </li>
                         <li><a href="sectors.php">Sectors</a></li>

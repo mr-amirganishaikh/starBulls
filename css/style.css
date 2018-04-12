@@ -3,13 +3,13 @@
 .twitter {
   background-color: #00aced !important; }
 
-.twitter-text, footer .footer .table tbody .tw:hover, footer .footer .table tbody .tw:hover a {
+.twitter-text {
   color: #00aced !important; }
 
 .facebook {
   background-color: #3b5998 !important; }
 
-.facebook-text, footer .footer .table tbody .fb:hover, footer .footer .table tbody .fb:hover a {
+.facebook-text {
   color: #3b5998 !important; }
 
 .googleplus {
@@ -21,7 +21,7 @@
 .pinterest {
   background-color: #cb2027 !important; }
 
-.pinterest-text, footer .footer .table tbody .pin:hover, footer .footer .table tbody .pin:hover a {
+.pinterest-text {
   color: #cb2027 !important; }
 
 .linkedin {
@@ -51,7 +51,7 @@
 .instagram {
   background-color: #bc2a8d !important; }
 
-.instagram-text, footer .footer .table tbody .insta:hover, footer .footer .table tbody .insta:hover a {
+.instagram-text {
   color: #bc2a8d !important; }
 
 .flickr {
@@ -292,12 +292,12 @@ h6 {
   -moz-animation-delay: 5.5s;
   animation-delay: 5.5s; }
 
-.relative-box, .page-banner, footer .footer .table tbody tr td form, #homepage-events, #homepage-events .events-section, #homepage-events .events-section .events-box, #homepage-events .events-section .events-box .box-details, #homepage-quotes, #homepage-statistics, #homepage-statistics .counter-box, #homepage-services, #homepage-services .services-section, #homepage-feedback, #homepage-clients, .client-area, .service-area .serv-subcat, .contact-form-box .sb-form-input, .rt-form .sb-form-input, .contact-form-box .sb-form-input .contact-field, .rt-form .sb-form-input .contact-field {
+.relative-box, .page-banner, #homepage-events, #homepage-events .events-section, #homepage-events .events-section .events-box, #homepage-events .events-section .events-box .box-details, #homepage-quotes, #homepage-statistics, #homepage-statistics .counter-box, #homepage-services, #homepage-services .services-section, #homepage-feedback, #homepage-clients, .client-area, .service-area .serv-subcat, .contact-form-box .sb-form-input, .rt-form .sb-form-input, .contact-form-box .sb-form-input .contact-field, .rt-form .sb-form-input .contact-field {
   position: relative;
   min-height: 1px;
   width: 100%;
   float: left; }
-  .relative-box:after, .page-banner:after, footer .footer .table tbody tr td form:after, #homepage-events:after, #homepage-events .events-section:after, #homepage-events .events-section .events-box:after, #homepage-events .events-section .events-box .box-details:after, #homepage-quotes:after, #homepage-statistics:after, #homepage-statistics .counter-box:after, #homepage-services:after, #homepage-services .services-section:after, #homepage-feedback:after, #homepage-clients:after, .client-area:after, .service-area .serv-subcat:after, .contact-form-box .sb-form-input:after, .rt-form .sb-form-input:after, .contact-form-box .sb-form-input .contact-field:after, .rt-form .sb-form-input .contact-field:after {
+  .relative-box:after, .page-banner:after, #homepage-events:after, #homepage-events .events-section:after, #homepage-events .events-section .events-box:after, #homepage-events .events-section .events-box .box-details:after, #homepage-quotes:after, #homepage-statistics:after, #homepage-statistics .counter-box:after, #homepage-services:after, #homepage-services .services-section:after, #homepage-feedback:after, #homepage-clients:after, .client-area:after, .service-area .serv-subcat:after, .contact-form-box .sb-form-input:after, .rt-form .sb-form-input:after, .contact-form-box .sb-form-input .contact-field:after, .rt-form .sb-form-input .contact-field:after {
     content: '';
     clear: both; }
 
@@ -634,46 +634,50 @@ body {
 
 footer {
   background-color: #e6e6e6; }
-  footer .footer .table tbody tr {
+  footer .footer2 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+    color: black;
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     -ms-transition: all 0.35s;
     -o-transition: all 0.35s;
     transition: all 0.35s; }
-    footer .footer .table tbody tr td {
-      border: 0; }
-      footer .footer .table tbody tr td a {
-        color: #282b30;
-        text-decoration: none;
-        -webkit-transition: all 0.35s;
-        -moz-transition: all 0.35s;
-        -ms-transition: all 0.35s;
-        -o-transition: all 0.35s;
-        transition: all 0.35s; }
-        footer .footer .table tbody tr td a:hover {
-          color: #ea4c63; }
-      footer .footer .table tbody tr td form input {
-        border: 1px solid #ddd;
-        padding: 10px;
-        border-radius: 2px;
-        width: 100%; }
-      footer .footer .table tbody tr td form span {
-        position: absolute;
-        right: 15px;
-        top: 10px; }
-    footer .footer .table tbody tr th {
-      color: #111214;
-      height: 123px;
-      vertical-align: middle;
-      text-transform: uppercase;
-      border: 0; }
-      footer .footer .table tbody tr th p::after {
-        content: "";
-        display: block;
-        width: 50px;
-        height: 4px;
-        border: 1px solid #e51e3b;
-        margin-top: 6px; }
+    footer .footer2 .footer-logo {
+      width: 30%;
+      margin: auto; }
+      footer .footer2 .footer-logo img {
+        width: 100px;
+        margin: auto; }
+    footer .footer2 .quick-links, footer .footer2 .social-links {
+      padding: 30px; }
+      footer .footer2 .quick-links ul, footer .footer2 .social-links ul {
+        padding: 0;
+        list-style-type: none; }
+        footer .footer2 .quick-links ul li, footer .footer2 .social-links ul li {
+          display: inline-block;
+          padding: 10px 20px; }
+          footer .footer2 .quick-links ul li a, footer .footer2 .social-links ul li a {
+            -webkit-transition: all 0.35s;
+            -moz-transition: all 0.35s;
+            -ms-transition: all 0.35s;
+            -o-transition: all 0.35s;
+            transition: all 0.35s;
+            text-decoration: none;
+            color: #000; }
+            footer .footer2 .quick-links ul li a:hover, footer .footer2 .social-links ul li a:hover {
+              color: #e51e3b; }
+    footer .footer2 .footer-copyright p a {
+      text-decoration: none;
+      color: #444;
+      -webkit-transition: all 0.35s;
+      -moz-transition: all 0.35s;
+      -ms-transition: all 0.35s;
+      -o-transition: all 0.35s;
+      transition: all 0.35s; }
+      footer .footer2 .footer-copyright p a:hover {
+        color: #fff; }
   footer .copyrights {
     border-top: 1px solid #dcdee1;
     color: #282b30; }
@@ -1012,7 +1016,8 @@ footer {
         margin: auto;
         color: white;
         text-transform: uppercase;
-        font-size: 22px; }
+        font-size: 22px;
+        text-align: center; }
   .service-area .serv-subcat:hover .serv-subcat-overlay {
     top: 0; }
 

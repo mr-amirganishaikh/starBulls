@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Services | StarBulls</title>
+    <title>Fire & Safety | StarBulls</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -26,7 +26,7 @@
     <div class="page-banner">
         <div class="full-black-overlay"></div>
         <div class="page-name text-center">
-            <h1 class="text-uppercase"><strong>services</strong> </h1>
+            <h1 class="text-uppercase"><strong>Fire & Safety</strong> </h1>
         </div>
         <div class="page-banner-logo">
             <img src="img/starbullslogo.png" class="img-responsive">
@@ -38,7 +38,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 m-b-md text-justify">
-                    <h2>Our Security Services</h2>
+                    <h2>Fire & Safety</h2>
                     <p>A well-trained security officer’s instinct and judgment beat even the most advanced technology, making ‘Manned Guarding’ the most crucial aspect of any effective security deployment strategy. As Asia's leading security service provider, TOPSGRUP has more than 140,000 licensed officers deployed across the country protecting invaluable human resources and securing trillions of dollars worth of corporate assets. Every security officer is selected through a stringent selection process that includes detailed background checks. Further, our officers undergo a rigorous 160-hour training program to meet industry and region-specific security norms. Our ISO 9001:2008 standards ensure strict compliance to globally-recognized operational standards and corporate governance practices.</p>
                     <p>A well-trained security officer’s instinct and judgment beat even the most advanced technology, making ‘Manned Guarding’ the most crucial aspect of any effective security deployment strategy. As human resources and securing trillions of dollars worth of corporate assets. Every security officer is selected through a stringent selection process that includes detailed background checks. Further, our officers undergo a rigorous 160-hour training program to meet industry and region-specific security norms. Our ISO 9001:2008 standards ensure strict compliance to globally-recognized operational standards and corporate governance practices.</p>
                     <p>A well-trained security officer’s instinct and judgment beat even the most advanced technology, making ‘Manned Guarding’ the most crucial aspect of any effective security deployment strategy. As Asia's leading security service provider, TOPSGRUP has more than 140,000 licensed officers deployed across the country protecting invaluable human resources and securing trillions of dollars worth of corporate assets.</p>
@@ -49,7 +49,7 @@
                         <img class="img-responsive" src="img/services/s1.jpg">
                         <div class="serv-subcat-overlay">
                             <div class="over-flex">
-                                <p>Service 1</p>
+                                <p>Fire Alarm & Accessories</p>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                         <img class="img-responsive" src="img/services/s1.jpg">
                         <div class="serv-subcat-overlay">
                             <div class="over-flex">
-                                <p>Service 1</p>
+                                <p>Fire Extinguishers</p>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                         <img class="img-responsive" src="img/services/s1.jpg">
                         <div class="serv-subcat-overlay">
                             <div class="over-flex">
-                                <p>Service 1</p>
+                                <p>Fire Marshals</p>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                         <img class="img-responsive" src="img/services/s1.jpg">
                         <div class="serv-subcat-overlay">
                             <div class="over-flex">
-                                <p>Service 1</p>
+                                <p>Fire Hydrant System</p>
                             </div>
                         </div>
                     </div>
@@ -89,22 +89,13 @@
                         <img class="img-responsive" src="img/services/s1.jpg">
                         <div class="serv-subcat-overlay">
                             <div class="over-flex">
-                                <p>Service 1</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4 m-b-md">
-                    <div class="serv-subcat">
-                        <img class="img-responsive" src="img/services/s1.jpg">
-                        <div class="serv-subcat-overlay">
-                            <div class="over-flex">
-                                <p>Service 1</p>
+                                <p>Fire Sprinkler System</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 
+
                 <div class="clearfix"></div>
 
             </div>

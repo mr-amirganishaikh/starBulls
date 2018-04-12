@@ -316,78 +316,127 @@ footer {
     background-color: #e6e6e6;
     //    background-color: $color-base;
     //    color: lighten($color-base, 50%);
-    .footer {
-        .table {
-            tbody {
-                tr {
+    //    .footer {
+    //        .table {
+    //            tbody {
+    //                tr {
+    //                    @include transition(all 0.35s);
+    //                    td {
+    //                        border: 0;
+    //                        a {
+    //                            //                            color: lighten($color-base, 50%);
+    //                            color: lighten($color-base, 10%);
+    //                            text-decoration: none;
+    //                            @include transition(all 0.35s);
+    //                            &:hover {
+    //                                color: lighten($color-main, 10%);
+    //                            }
+    //                        }
+    //                        form {
+    //                            @extend .relative-box;
+    //                            input {
+    //                                //                                background-color: #444;
+    //                                border: 1px solid #ddd;
+    //                                //                                border: 1px solid #555;
+    //                                padding: 10px;
+    //                                border-radius: 2px;
+    //                                width: 100%;
+    //                            }
+    //                            span {
+    //                                position: absolute;
+    //                                right: 15px;
+    //                                top: 10px;
+    //                            }
+    //                        }
+    //                    }
+    //                    th {
+    //                        color: $color-base;
+    //                        //                        color: $color-white;
+    //                        height: 123px;
+    //                        vertical-align: middle;
+    //                        text-transform: uppercase;
+    //                        border: 0;
+    //                        p::after {
+    //                            content: "";
+    //                            display: block;
+    //                            width: 50px;
+    //                            height: 4px;
+    //                            border: 1px solid $color-main;
+    //                            margin-top: 6px;
+    //                        }
+    //                    }
+    //                }
+    //                .tw:hover {
+    //                    @extend .twitter-text;
+    //                    a {
+    //                        @extend .twitter-text;
+    //                    }
+    //                }
+    //                .fb:hover {
+    //                    @extend .facebook-text;
+    //                    a {
+    //                        @extend .facebook-text;
+    //                    }
+    //                }
+    //                .pin:hover {
+    //                    @extend .pinterest-text;
+    //                    a {
+    //                        @extend .pinterest-text;
+    //                    }
+    //                }
+    //                .insta:hover {
+    //                    @extend .instagram-text;
+    //                    a {
+    //                        @extend .instagram-text;
+    //                    }
+    //                }
+    //            }
+    //        }
+    //    }
+    .footer2 {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 30px;
+        color: black;
+        @include transition(all 0.35s);
+        .footer-logo {
+            width: 30%;
+            margin: auto;
+            img{
+                width: 100px;
+                margin: auto;
+            }
+        }
+        .quick-links {
+            padding: 30px;
+            ul {
+                padding: 0;
+                list-style-type: none;
+                li {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    a {
+                        @include transition(all 0.35s);
+                        text-decoration: none;
+                        color: #000;
+                        &:hover {
+                            color: $color-main;
+                        }
+                    }
+                }
+            }
+        }
+        .social-links {
+            @extend .quick-links;
+        }
+        .footer-copyright {
+            p {
+                a {
+                    text-decoration: none;
+                    color: #444;
                     @include transition(all 0.35s);
-                    td {
-                        border: 0;
-                        a {
-                            //                            color: lighten($color-base, 50%);
-                            color: lighten($color-base, 10%);
-                            text-decoration: none;
-                            @include transition(all 0.35s);
-                            &:hover {
-                                color: lighten($color-main, 10%);
-                            }
-                        }
-                        form {
-                            @extend .relative-box;
-                            input {
-                                //                                background-color: #444;
-                                border: 1px solid #ddd;
-                                //                                border: 1px solid #555;
-                                padding: 10px;
-                                border-radius: 2px;
-                                width: 100%;
-                            }
-                            span {
-                                position: absolute;
-                                right: 15px;
-                                top: 10px;
-                            }
-                        }
-                    }
-                    th {
-                        color: $color-base;
-                        //                        color: $color-white;
-                        height: 123px;
-                        vertical-align: middle;
-                        text-transform: uppercase;
-                        border: 0;
-                        p::after {
-                            content: "";
-                            display: block;
-                            width: 50px;
-                            height: 4px;
-                            border: 1px solid $color-main;
-                            margin-top: 6px;
-                        }
-                    }
-                }
-                .tw:hover {
-                    @extend .twitter-text;
-                    a {
-                        @extend .twitter-text;
-                    }
-                }
-                .fb:hover {
-                    @extend .facebook-text;
-                    a {
-                        @extend .facebook-text;
-                    }
-                }
-                .pin:hover {
-                    @extend .pinterest-text;
-                    a {
-                        @extend .pinterest-text;
-                    }
-                }
-                .insta:hover {
-                    @extend .instagram-text;
-                    a {
-                        @extend .instagram-text;
+                    &:hover {
+                        color: #fff;
                     }
                 }
             }
@@ -938,6 +987,7 @@ footer {
                     color: white;
                     text-transform: uppercase;
                     font-size: 22px;
+                    text-align: center;
                 }
             }
         }
